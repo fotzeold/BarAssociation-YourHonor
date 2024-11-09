@@ -1,0 +1,155 @@
+.header{
+	&__top-wrapper{
+		height: 40px;
+		display: flex;
+		gap: 30px;
+		align-items: center;
+		justify-content: flex-end;
+		.row{
+			display: flex;
+			align-items: center;
+			gap: 30px;
+		}
+		a.row{
+			gap: 4px;
+		}		
+	}
+	&__top{
+		border-bottom: 1px solid #00B0F2;
+		&-social.row{
+			gap: 12px;
+		}
+	}
+	&__bottom{
+		height: 112px;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+	nav{
+		display: flex;
+		align-items: center;
+		gap: 30px;
+		ul{
+			list-style: none;
+			display: flex;
+			align-items: center;
+			font-size: 20px;
+			gap: 20px;
+		}
+		.nav-link{
+			position: relative;
+		}
+		.nav-link.active::after{
+			content: "";
+			position: absolute;
+			display: block;
+			height: 2px;
+			width: 100%;
+			background: #08083B;
+			bottom: 0;
+		}
+	}
+
+	.burger{
+		width: 48px;
+		height: 29px;
+		position: relative;
+		z-index: 2;
+		display: none;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: flex-end;
+		background: none;
+		border: none;
+		cursor: pointer;
+		figure{
+			height: 3px;
+			background: #08083B;
+			width: 100%;
+			transition: all 0.3s;
+		}
+		figure:nth-child(2){
+			width: 38px;
+		}
+	}
+	.burger.active{
+		figure:nth-child(1){
+			transform: rotate(45deg) translate(10px, 8px);
+		}
+		figure:nth-child(2){
+			width: 0;
+			transform: translate(-20px);
+		}
+		figure:nth-child(3){
+			transform: rotate(-45deg) translate(10px, -8px);
+		}
+	}
+	.header__nav-social{
+		display: none;
+	}
+}
+
+@media all and (max-width: 1200px) {
+	.header{
+		nav{
+			position: absolute;
+			top: 0;
+			left: -150%;
+			z-index: 1;
+			transition: all 0.3s;
+			height: 100vh;
+			background: white;
+			justify-content: center;
+			flex-direction: column;
+			max-width: 640px;
+			width: 100%;
+			box-shadow: 1px 1px 4px rgb(206, 206, 206);
+			padding-top: 30px;
+			ul{
+				margin-bottom: 30px;
+				flex-direction: column;
+				gap: 30px;
+				font-size: 24px;
+			}
+		}
+		nav.active{
+			left: 0;
+		}
+		.burger{
+			display: flex;
+		}
+	}
+}
+
+@media all and (max-width: 640px) {
+	.header{
+		padding: 10px 0;
+		&__bottom{
+			height: auto;
+		}
+		&__top{
+			display: none;
+		}
+		.logo__second{
+			display: none;
+		}
+		.logo img{
+			width: 58px;
+			height: 49px;
+		}
+		.logo__first{
+			margin-left: -15px;
+		}
+		.logo__first-top{
+			font-size: 14px;
+		}
+		.logo__first-bottom{
+			font-size: 30px;
+		}
+		.header__nav-social{
+			display: flex;
+			gap: 10px;
+		}
+	}
+}

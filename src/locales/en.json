@@ -1,0 +1,187 @@
+{
+	"logo": {
+		"first_top": "Law Firm",
+		"first_bottom": "Your Honor",
+		"second_top": "Leader",
+		"second_middle": "ONLINE",
+		"second_bottom": "legal services"
+	},
+	"nav": {
+		"home": "Home",
+		"services": "Services",
+		"payment": "Payment",
+		"prices": "Prices",
+		"about": "About Us",
+		"blog": "Blog",
+		"contacts": "Contacts"
+	},
+	"home": {
+		"hero": {
+			"title": "Offering goods or services in the EU, UK, or US markets? We are here for you!",
+			"first_text": "We will bring your website, app, and business in line with international standards without the risk of fines or reputation loss.",
+			"second_text": "Founded to solve your problems, not create new ones. Our goal is to find 'how it's allowed to do' and offer all possible ways to implement your boldest plans, not to say 'how it's forbidden'.",
+			"btn": "Learn More",
+			"label": "Sign up for a free consultation"
+		},
+		"personal": {
+			"title": "Personal Data Protection",
+			"text": "Compliance of the website, application, and company activities with GDPR requirements (EU), the United Kingdom, and the United States",
+			"list": [
+				"Website compliance (Privacy Policy, Terms of Use, Cookie Policy)",
+				"Contracts, Data Processing Agreement (DPA)",
+				"Development of internal company documents and procedures",
+				"Personal data audit (categories, contractors, processing types, subprocessors)",
+				"Consent of data subjects",
+				"Privacy risk assessment for new products and services (DPIA, LIA, PIA)",
+				"Cross-border data transfer risk assessment (TIA)",
+				"Marketing of products and services without violating international privacy requirements",
+				"Information security. Technical and organizational data protection measures",
+				"Legalization of personal data processing (proportionality and necessity of legitimate interest, contract performance, validity of data subject consent, other grounds)",
+				"Data breach: how to act and who to inform",
+				"Response to requests from individuals and regulatory authorities",
+				"Outsourced Data Protection Officer (DPO) services",
+				"Consulting",
+				"Representation and protection of interests in disputes and courts"
+			],
+			"btn": "Learn More"
+		},
+		"law_service": {
+			"title": "LEGAL SERVICES",
+			"second_title": "for Your Business",
+			"btn": "Learn More",
+			"text": "Have you signed a Non-Disclosure Agreement or confidentiality commitment? Rest assured, <b>Your information and documents are securely protected</b> by our attorney-client privilege, and you will not breach your commitments.",
+			"cards": [
+				{
+					"title": "For Companies",
+					"list": [
+						{
+							"text": "Legal support for your business"
+						},
+						{
+							"text": "English-speaking lawyer"
+						},
+						{
+							"text": "Consultations on any legal issues"
+						},
+						{
+							"text": "All types of contracts, including:",
+							"sub_list": [
+								"Software development agreement",
+								"Service agreement",
+								"Purchase agreement",
+								"Supply order",
+								"Non-Disclosure Agreement (NDA)",
+								"Non-Compete Agreement (NCA)",
+								"Non-Solicitation Agreement, waiver of rights",
+								"Separation Agreement (termination of contract) for intellectual property rights",
+								"Employment contracts",
+								"Internal company policies"
+							]
+						},
+						{
+							"text": "Intellectual property rights protection agreement"
+						},
+						{
+							"text": "Development of internal company documents"
+						},
+						{
+							"text": "Taxation in any foreign country, currency control, use of electronic money"
+						},
+						{
+							"text": "Negotiations with partners and agreement of contract terms, collaboration"
+						},
+						{
+							"text": "Intellectual property rights protection (for works, software, design, and trade secrets)"
+						},
+						{
+							"text": "Debt collection"
+						}
+					]
+				},
+				{
+					"title": "For IT Specialists",
+					"list": [
+						{
+							"text": "<b>Analysis of all types of contracts and agreements:</b>",
+							"sub_list": [
+								"Non-Disclosure Agreement",
+								"Non-Compete Agreement",
+								"Non-Solicitation Agreement",
+								"Software development contract",
+								"Service agreement",
+								"Intellectual property rights agreement",
+								"Employment contract",
+								"Termination of collaboration agreement",
+								"Rights waiver"
+							]
+						},
+						{
+							"text": "<b>Analysis of all risks, potential liabilities, and ways to avoid them, making amendments to the most problematic clauses.</b>"
+						},
+						{
+							"text": "<b>Explanation</b> of the relevant legislation of the US state, EU, or UK on risks not <b>stipulated in the contract</b> that may arise during the performance of the respective agreement."
+						},
+						{
+							"text": "Protection of intellectual property rights for works, software, design, and trade secrets."
+						},
+						{
+							"text": "Consultations on any legal issues"
+						}
+					]
+				}
+			]
+		}
+	},
+	"advantages": {
+		"title": "Our Advantages",
+		"list": [
+			{
+				"title": "Client Interests – Our Priority",
+				"text": "Our goal is to find the 'right' legislative provisions based on your needs and the specifics of your business."
+			},
+			{
+				"title": "Confidentiality",
+				"text": "Attorney-client privilege protects information entrusted by the Client. Our lawyers ensure full confidentiality of the cases they work on."
+			},
+			{
+				"title": "Clear and Concise Action Plan",
+				"text": "Your task is to grow the business, plan, and our task is to reliably protect it and help bring your boldest ideas to life."
+			},
+			{
+				"title": "ONLINE Accessibility",
+				"text": "High-quality legal services online, available for order anytime, anywhere, and from any device."
+			},
+			{
+				"title": "Openness to Innovation",
+				"text": "From you – ideas; from us – unique ways to bring them to life and assess potential legal risks."
+			},
+			{
+				"title": "Cost Predictability",
+				"text": "We pre-assess the scope of the task and inform you of the service cost and timeline. Transparency and predictability are the foundation of our Clients' trust."
+			},
+			{
+				"title": "Quality",
+				"text": "All our lawyers have over 10 years of experience and hold numerous internationally recognized certificates. We provide high-quality, professional legal services personally and never involve students or interns."
+			},
+			{
+				"title": "We Solve Problems, Not Create Them",
+				"text": "Our goal is to find 'how it is allowed to do' and offer all possible ways to bring your boldest plans to life, rather than saying 'how it is prohibited.'"
+			},
+			{
+				"title": "Individual Approach",
+				"text": "Cases may be similar but never identical. We believe our advice goes beyond legal knowledge. We take an interest in understanding the Client's business processes to offer the most optimal business solution."
+			}
+		],
+		"info": {
+			"text_first": "<b>Call Us</b> and receive your first consultation with a lawyer for free!",
+			"text_second": "<b>Call Us</b> and get a free initial consultation from a lawyer on",
+			"service": "<b>Services</b>"
+		}
+	},
+	"footer": {
+		"copyright": "© 2018-2024. All rights reserved",
+		"terms": "Terms of Use",
+		"anonimus": "Privacy Policy",
+		"offer": "Legal Services Agreement (Public Offer)"
+	}
+}

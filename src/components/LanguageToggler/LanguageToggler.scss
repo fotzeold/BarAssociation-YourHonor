@@ -1,0 +1,21 @@
+.language-toggler{
+	display: flex;
+	align-items: center;
+	gap: 12px;
+	button{
+		display: flex;
+		align-items: center;
+		gap: 8px;
+	}
+	
+	span{
+		opacity: 0.5;
+		font-family: "Open Sans", sans-serif;
+		font-size: 18px;
+		font-weight: bold;
+	}
+
+	button.active span{
+		opacity: 1;
+	}
+}
