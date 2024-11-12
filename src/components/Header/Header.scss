@@ -135,17 +135,21 @@
 			display: none;
 		}
 		.logo img{
-			width: 58px;
-			height: 49px;
+			width: 72px;
+			height: 64px;
 		}
 		.logo__first{
 			margin-left: -15px;
 		}
 		.logo__first-top{
-			font-size: 14px;
+			font-size: 18px;
+			position: relative;
+			bottom: -3px;
 		}
 		.logo__first-bottom{
-			font-size: 30px;
+			position: relative;
+			font-size: 36px;
+			top: -3px;
 		}
 		.header__nav-social{
 			display: flex;
