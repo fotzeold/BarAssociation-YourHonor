@@ -5,6 +5,7 @@ import Footer from "../components/Footer/Footer"
 import HomePage from "../pages/HomePage/HomePage"
 import AboutPage from "../pages/AboutPage/AboutPage"
 import ServicesPage from "../pages/ServicesPage/ServicesPage"
+import PaymentPage from "../pages/PaymentPage/PaymentPage"
 
 const App = () => {
 
@@ -16,6 +17,7 @@ const App = () => {
 					<Route path="/" element={<HomePage />} />
 					<Route path="/about" element={<AboutPage />} />
 					<Route path="/services" element={<ServicesPage />} />
+					<Route path="/payment" element={<PaymentPage />} />
 				</Routes>
 				<Footer />
 			</BrowserRouter>

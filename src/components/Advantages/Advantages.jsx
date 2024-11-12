@@ -1,6 +1,7 @@
 import "./Advantages.scss"
 import { icons } from "../../utils/image"
 import Image from "../../ui/Image/Image"
+import MultipleLink from "../MultipleLink/MultipleLink"
 
 const Advantages = ({ type, texts }) => {
 
@@ -23,22 +24,17 @@ const Advantages = ({ type, texts }) => {
 						})
 					}
 				</div>
-				<p className="adv__bottom">
+				<div className="adv__bottom">
 					{
 						type === "home" ?
 							<a href="tel:+380962580135">
 								<Image src={icons.phone} alt={"Phone"} width={"24px"} height={"24px"} />
-								<span dangerouslySetInnerHTML={{ __html: info.text_first }} />
+								<span dangerouslySetInnerHTML={{ __html: texts.info.text_first }} />
 							</a>
 							:
-							<a href="tel:+380962580135">
-								<Image src={icons.phone} alt={"Phone"} width={"24px"} height={"24px"} />
-								<span dangerouslySetInnerHTML={{ __html: info.text_second }} />
-								<Image src={icons.portfel} alt={"portfel"} width={"24px"} height={"24px"} />
-								<span dangerouslySetInnerHTML={{ __html: info.service }} />
-							</a>
+							<MultipleLink texts={texts} />
 					}
-				</p>
+				</div>
 			</div>
 		</section>
 	)
