@@ -1,0 +1,30 @@
+section.top-page{
+	padding: 22px 0;
+	text-align: center;
+	h1{
+		color: white;
+		font-size: 36px;
+		font-weight: bold;
+		text-transform: uppercase;
+		margin-bottom: 10px;
+	}
+	div{
+		color: white;
+		font-weight: bold;
+	}
+	.second-title{
+		font-size: 24px;
+		margin-bottom: 6px;
+	}
+	.third-title{
+		font-size: 20px;
+	}
+}
+
+@media all and (max-width: 768px) {
+	section.top-page{
+		h1{
+			font-size: 28px;
+		}
+	}
+}

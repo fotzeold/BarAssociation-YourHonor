@@ -1,5 +1,5 @@
 section.advantages{
-	padding: 120px 0;
+	margin: 120px 0;
 	h2{
 		font-size: 36px;
 		text-align: center;
@@ -52,7 +52,7 @@ section.advantages{
 
 @media all and (max-width: 640px) {
 	section.advantages{
-		padding: 80px 0;
+		margin: 80px 0;
 		.advantages__wrapper{
 			gap: 15px;
 		}

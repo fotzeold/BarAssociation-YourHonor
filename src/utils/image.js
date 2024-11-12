@@ -27,6 +27,7 @@ import hs7 from "../assets/icons/h-s7.svg"
 import hs8 from "../assets/icons/h-s8.svg"
 import hs9 from "../assets/icons/h-s9.svg"
 
+
 export const icons = {
 	ukIcon,
 	enIcon,
