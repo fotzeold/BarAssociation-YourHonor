@@ -4,12 +4,20 @@ import { useLanguage } from "../../context/LanguageContext"
 import Image from "../../ui/Image/Image"
 import { icons } from "../../utils/image"
 import { NavLink } from "react-router-dom"
-import { useState } from "react"
+import { useState, useEffect } from "react"
 
 const Header = () => {
 	const [mobileMenu, setMobileMenu] = useState(false)
 	const { texts } = useLanguage()
 	const { logo, nav } = texts
+
+	useEffect(() => {
+		if (mobileMenu) {
+			document.body.classList.add("fixed-body")
+		} else {
+			document.body.classList.remove("fixed-body")
+		}
+	}, [mobileMenu])
 
 	return (
 		<header className="header">
@@ -54,22 +62,22 @@ const Header = () => {
 				</div>
 				<nav className={mobileMenu ? "nav-menu active" : "nav-menu"}>
 					<ul>
-						<li><NavLink to="/" className={({ isActive }) => isActive ? "nav-link active" : "nav-link"}>{nav.home}</NavLink></li>
-						<li><NavLink to="/services" className={({ isActive }) => isActive ? "nav-link active" : "nav-link"}>{nav.services}</NavLink></li>
-						<li><NavLink to="/payment" className={({ isActive }) => isActive ? "nav-link active" : "nav-link"}>{nav.payment}</NavLink></li>
-						<li><NavLink to="/pricing" className={({ isActive }) => isActive ? "nav-link active" : "nav-link"}>{nav.pricing}</NavLink></li>
-						<li><NavLink to="/about" className={({ isActive }) => isActive ? "nav-link active" : "nav-link"}>{nav.about}</NavLink></li>
-						<li><NavLink to="/blog" className={({ isActive }) => isActive ? "nav-link active" : "nav-link"}>{nav.blog}</NavLink></li>
+						<li><NavLink onClick={() => setMobileMenu(false)} to="/" className={({ isActive }) => isActive ? "nav-link active" : "nav-link"}>{nav.home}</NavLink></li>
+						<li><NavLink onClick={() => setMobileMenu(false)} to="/services" className={({ isActive }) => isActive ? "nav-link active" : "nav-link"}>{nav.services}</NavLink></li>
+						<li><NavLink onClick={() => setMobileMenu(false)} to="/payment" className={({ isActive }) => isActive ? "nav-link active" : "nav-link"}>{nav.payment}</NavLink></li>
+						<li><NavLink onClick={() => setMobileMenu(false)} to="/pricing" className={({ isActive }) => isActive ? "nav-link active" : "nav-link"}>{nav.pricing}</NavLink></li>
+						<li><NavLink onClick={() => setMobileMenu(false)} to="/about" className={({ isActive }) => isActive ? "nav-link active" : "nav-link"}>{nav.about}</NavLink></li>
+						<li><NavLink onClick={() => setMobileMenu(false)} to="/blog" className={({ isActive }) => isActive ? "nav-link active" : "nav-link"}>{nav.blog}</NavLink></li>
 					</ul>
 					<LanguageToggler />
 					<div className="header__nav-social row">
-						<a target="_blank" href="https://t.me/AAYourHonor">
+						<a onClick={() => setMobileMenu(false)} target="_blank" href="https://t.me/AAYourHonor">
 							<Image src={icons.telegram} width={"32px"} height={"32px"} alt={"telegram"} />
 						</a>
-						<a target="_blank" href="https://wa.me/380962580135">
+						<a onClick={() => setMobileMenu(false)} target="_blank" href="https://wa.me/380962580135">
 							<Image src={icons.whatsapp} width={"32px"} height={"32px"} alt={"whatsapp"} />
 						</a>
-						<a target="_blank" href="viber://chat?number=380962580135">
+						<a onClick={() => setMobileMenu(false)} target="_blank" href="viber://chat?number=380962580135">
 							<Image src={icons.viber} width={"32px"} height={"32px"} alt={"viber"} />
 						</a>
 					</div>
