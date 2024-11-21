@@ -4,7 +4,6 @@ import Image from "../../../ui/Image/Image"
 const Guarantee = ({ texts }) => {
 
 	const { title, subtitle, garantTitle, garantList } = texts.pricingPage
-	console.log(garantList)
 	return (
 		<section className="guarantee" >
 			<div className="container">

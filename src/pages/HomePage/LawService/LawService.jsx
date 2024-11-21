@@ -1,5 +1,6 @@
 import "./LawService.scss"
 import Button from "../../../ui/Button/Button"
+import { Link } from "react-router-dom"
 
 const LawService = ({ texts }) => {
 	const { law_service } = texts.home
@@ -32,7 +33,9 @@ const LawService = ({ texts }) => {
 										</li>
 									))}
 								</ul>
-								<Button text={law_service.btn} />
+								<Link to={card.link}>
+									<Button text={law_service.btn} />
+								</Link>
 							</div>
 						))}
 					</div>

@@ -3,17 +3,21 @@ import Personal from "./Personal/Personal"
 import LawService from "./LawService/LawService"
 import Advantages from "../../components/Advantages/Advantages"
 import { useLanguage } from "../../context/LanguageContext"
+import CustomHelmet from "../../components/CustomHelmet/CustomHelmet"
 
 const HomePage = () => {
 	const { texts } = useLanguage()
 
 	return (
-		<main>
-			<Hero texts={texts} />
-			<Personal texts={texts} />
-			<LawService texts={texts} />
-			<Advantages texts={texts} type={"home"} />
-		</main>
+		<>
+			<CustomHelmet meta={texts.meta.home} />
+			<main>
+				<Hero texts={texts} />
+				<Personal texts={texts} />
+				<LawService texts={texts} />
+				<Advantages texts={texts} type={"home"} />
+			</main>
+		</>
 	)
 }
 

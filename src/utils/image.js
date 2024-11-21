@@ -16,6 +16,7 @@ import emailF from "../assets/icons/envelopeF.svg"
 import visa from "../assets/icons/Visa.svg"
 import easyPay from "../assets/icons/easypay.svg"
 import masrercard from "../assets/icons/masrercard.svg"
+import loader from "../assets/icons/loader.svg"
 
 import hs1 from "../assets/icons/h-s1.svg"
 import hs2 from "../assets/icons/h-s2.svg"
@@ -47,5 +48,6 @@ export const icons = {
 	visa,
 	easyPay,
 	masrercard,
+	loader,
 	hsIconsList: [hs1, hs2, hs3, hs4, hs5, hs6, hs7, hs8, hs9]
 }

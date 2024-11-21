@@ -1,5 +1,6 @@
 import "./Personal.scss"
 import Button from "../../../ui/Button/Button"
+import { Link } from "react-router-dom"
 
 const Personal = ({ texts }) => {
 
@@ -16,7 +17,9 @@ const Personal = ({ texts }) => {
 							personal.list.map((txt, i) => <li key={i + "-pli"}>{txt}</li>)
 						}
 					</ul>
-					<Button text={personal.btn} />
+					<Link to={"/services/personal-data-protection"}>
+						<Button text={personal.btn} />
+					</Link>
 				</div>
 			</div>
 		</section>

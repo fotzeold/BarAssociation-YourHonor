@@ -1,10 +1,10 @@
 {
 	"logo": {
-		"first_top": "Law Firm",
+		"first_top": "Advocates’ Association",
 		"first_bottom": "Your Honor",
-		"second_top": "Leader",
+		"second_top": "Your #1 trusted",
 		"second_middle": "ONLINE",
-		"second_bottom": "legal services"
+		"second_bottom": "Legal Solution"
 	},
 	"nav": {
 		"home": "Home",
@@ -12,35 +12,39 @@
 		"payment": "Payment",
 		"pricing": "Pricing",
 		"about": "About Us",
-		"blog": "Blog",
-		"contacts": "Contacts"
+		"blog": "Legal Blog"
+	},
+	"info": {
+		"text_first": "<b>Call Us</b> and get the first free consultation on Our Services regarding Your issue.",
+		"text_second": "<b>Call Us</b> and get a free initial consultation from a lawyer regarding",
+		"service": "<b>Services</b>"
 	},
 	"home": {
 		"hero": {
-			"title": "Offering goods or services in the EU, UK, or US markets? We are here for you!",
-			"first_text": "We will bring your website, app, and business in line with international standards without the risk of fines or reputation loss.",
-			"second_text": "Founded to solve your problems, not create new ones. Our goal is to find 'how it's allowed to do' and offer all possible ways to implement your boldest plans, not to say 'how it's forbidden'.",
-			"btn": "Learn More",
-			"label": "Sign up for a free consultation"
+			"title": "Planning to offer goods or services in the EU, UK, or US markets? We are here for you!",
+			"first_text": "We will bring your business, website and app, in compliance with international requirements, securing you from fines or reputational damage.",
+			"second_text": "Founded to solve your problems, not create new ones. Our goal is to find 'what’s allowed' and propose all possible ways to bring your plans to life, rather than saying 'what’s forbidden.'",
+			"btn": "Read more",
+			"label": "Book a Free Consultation"
 		},
 		"personal": {
 			"title": "Personal Data Protection",
-			"text": "Compliance of the website, application, and company activities with GDPR requirements (EU), the United Kingdom, and the United States",
+			"text": "Compliance of your business, Web-site and apps with data protection requirements in EU (GDPR), UK and USA",
 			"list": [
-				"Website compliance (Privacy Policy, Terms of Use, Cookie Policy)",
-				"Contracts, Data Processing Agreement (DPA)",
-				"Development of internal company documents and procedures",
-				"Personal data audit (categories, contractors, processing types, subprocessors)",
-				"Consent of data subjects",
-				"Privacy risk assessment for new products and services (DPIA, LIA, PIA)",
-				"Cross-border data transfer risk assessment (TIA)",
-				"Marketing of products and services without violating international privacy requirements",
-				"Information security. Technical and organizational data protection measures",
-				"Legalization of personal data processing (proportionality and necessity of legitimate interest, contract performance, validity of data subject consent, other grounds)",
-				"Data breach: how to act and who to inform",
-				"Response to requests from individuals and regulatory authorities",
-				"Outsourced Data Protection Officer (DPO) services",
-				"Consulting",
+				"GDPR Compliance of website (Privacy Policy, Terms of Use, Cookie Policy)",
+				"Data Protection Agreements",
+				"Drafting of internal company documents, contracts, procedures",
+				"Mapping of personal data (categories, vendors, processing activities, sub-processors)",
+				"Consents of personal data subjects",
+				"Privacy risk assessment of new products and services (Data Protection Impact Assessment, Legitimate Impact Assessment, Privacy Impact Assessment)",
+				"Cross-border data transfers (Transfer Impact Assessment)",
+				"Marketing of products and services without violation of EU, UK or US privacy requirements",
+				"Information security. Technical and organizational measures",
+				"Bringing personal data processing in compliance with the law (proportionality and necessity of legitimate interest, performance of the contract, validity of data subjects’ consents)",
+				"Data Breach mitigation: how to act and whom to inform",
+				"Responses to requests of data subjects and Data Protection Authorities",
+				"Outsourced services of a certified Data Protection Officer (DPO)",
+				"Consultations",
 				"Representation and protection of interests in disputes and courts"
 			],
 			"btn": "Learn More"
@@ -48,14 +52,15 @@
 		"law_service": {
 			"title": "LEGAL SERVICES",
 			"second_title": "for Your Business",
-			"btn": "Learn More",
-			"text": "Have you signed a Non-Disclosure Agreement or confidentiality commitment? Rest assured, <b>Your information and documents are securely protected</b> by our attorney-client privilege, and you will not breach your commitments.",
+			"btn": "Read more",
+			"text": "Have you signed a Non-Disclosure Agreement or confidentiality clause? Rest assured, <b>the confidentiality of your information and documents will be safeguarded by our advocate-client professional secrecy</b>, and your non-disclosure obligations will not be breached.",
 			"cards": [
 				{
 					"title": "For Companies",
+					"link": "/services/for-companies",
 					"list": [
 						{
-							"text": "Legal support for your business"
+							"text": "<b>Outsourced Legal services</b>"
 						},
 						{
 							"text": "English-speaking lawyer"
@@ -64,42 +69,37 @@
 							"text": "Consultations on any legal issues"
 						},
 						{
-							"text": "All types of contracts, including:",
+							"text": "Consultations on taxation in any foreign country, use of digital payment services (such as PayPal, Wise)"
+						},
+						{
+							"text": "Negotiations with vendors, cooperation and conclusion of agreements"
+						},
+						{
+							"text": "<b>Internal company documents</b>"
+						},
+						{
+							"text": "<b>Contracts and internal company documents for your business, including:</b>",
 							"sub_list": [
-								"Software development agreement",
-								"Service agreement",
-								"Purchase agreement",
-								"Supply order",
+								"License agreement, software development agreement",
+								"Service Agreement, Sales Agreement, Insertion Order",
 								"Non-Disclosure Agreement (NDA)",
 								"Non-Compete Agreement (NCA)",
-								"Non-Solicitation Agreement, waiver of rights",
-								"Separation Agreement (termination of contract) for intellectual property rights",
-								"Employment contracts",
-								"Internal company policies"
+								"Non-Solicitation agreement, disclaimer",
+								"Separation agreement",
+								"Employment contracts, working rules and other internal company documents"
 							]
 						},
 						{
-							"text": "Intellectual property rights protection agreement"
+							"text": "IP rights protection (copyrights, programs, design and trade secrets)"
 						},
 						{
-							"text": "Development of internal company documents"
-						},
-						{
-							"text": "Taxation in any foreign country, currency control, use of electronic money"
-						},
-						{
-							"text": "Negotiations with partners and agreement of contract terms, collaboration"
-						},
-						{
-							"text": "Intellectual property rights protection (for works, software, design, and trade secrets)"
-						},
-						{
-							"text": "Debt collection"
+							"text": "Legal disputes and enforcement actions"
 						}
 					]
 				},
 				{
 					"title": "For IT Specialists",
+					"link": "/services/for-it-specialists",
 					"list": [
 						{
 							"text": "<b>Analysis of all types of contracts and agreements:</b>",
@@ -107,22 +107,25 @@
 								"Non-Disclosure Agreement",
 								"Non-Compete Agreement",
 								"Non-Solicitation Agreement",
-								"Software development contract",
-								"Service agreement",
-								"Intellectual property rights agreement",
-								"Employment contract",
-								"Termination of collaboration agreement",
-								"Rights waiver"
+								"Software Development Contract",
+								"Service Agreement",
+								"IP rights Agreement",
+								"Employment Contract",
+								"Separation Agreement",
+								"Disclaimer"
 							]
 						},
 						{
-							"text": "<b>Analysis of all risks, potential liabilities, and ways to avoid them, making amendments to the most problematic clauses.</b>"
+							"text": "<b>Analysis of all risks, possible liability and ways to avoid them.</b>"
 						},
 						{
-							"text": "<b>Explanation</b> of the relevant legislation of the US state, EU, or UK on risks not <b>stipulated in the contract</b> that may arise during the performance of the respective agreement."
+							"text": "<b>Proposing changes</b> to the most problematic provisions."
 						},
 						{
-							"text": "Protection of intellectual property rights for works, software, design, and trade secrets."
+							"text": "<b>Explanation on possible risks</b> under relevant EU, UK or US legislation, which may arise and are not prescribed in contracts."
+						},
+						{
+							"text": "IP rights protection at workpace (programs, copyrights, designs and trade secrets)"
 						},
 						{
 							"text": "Consultations on any legal issues"
@@ -133,55 +136,167 @@
 		}
 	},
 	"advantages": {
-		"title": "Our Advantages",
+		"title": "WHY CHOOSE US?",
 		"list": [
 			{
-				"title": "Client Interests – Our Priority",
-				"text": "Our goal is to find the 'right' legislative provisions based on your needs and the specifics of your business."
+				"title": "Your Interests – Ours #1 Priority",
+				"text": "We care about our clients and see our main purpose in finding “the right legal provisions” to safeguard your specific business interests"
 			},
 			{
-				"title": "Confidentiality",
-				"text": "Attorney-client privilege protects information entrusted by the Client. Our lawyers ensure full confidentiality of the cases they work on."
+				"title": "We Resolve the Problems, Not Create Them",
+				"text": "We say how you 'can do' and find out all the possible solutions to make all your ideas 'go live', instead of saying how you 'can’t do'."
 			},
 			{
-				"title": "Clear and Concise Action Plan",
-				"text": "Your task is to grow the business, plan, and our task is to reliably protect it and help bring your boldest ideas to life."
+				"title": "Clear and Comprehensive Action Plan",
+				"text": "Our legal aid and advices are clear, structured and easy to understand, include a number of actions or steps needed to achieve the goals. While You develop Your business, we safeguard it and take good care in implementing your most daring ideas."
 			},
 			{
 				"title": "ONLINE Accessibility",
-				"text": "High-quality legal services online, available for order anytime, anywhere, and from any device."
+				"text": "High-quality legal services are available online, accessible anytime, anywhere, and from any device."
 			},
 			{
-				"title": "Openness to Innovation",
-				"text": "From you – ideas; from us – unique ways to bring them to life and assess potential legal risks."
+				"title": "Confidentiality",
+				"text": "Attorney-client privilege and professional secrecy protect the confidentiality of all the information you share with us."
 			},
 			{
 				"title": "Cost Predictability",
-				"text": "We pre-assess the scope of the task and inform you of the service cost and timeline. Transparency and predictability are the foundation of our Clients' trust."
+				"text": "We pre-assess the scope of the task in advance and inform you of the services’ cost and timeframe. Transparency and predictability are the key to our Clients' trust."
 			},
 			{
 				"title": "Quality",
-				"text": "All our lawyers have over 10 years of experience and hold numerous internationally recognized certificates. We provide high-quality, professional legal services personally and never involve students or interns."
+				"text": "All our advocates have more than 10 years of experience, and obtained numerous internationally recognized privacy certificates. We always ptovide all the services personally, and never involve students or interns"
 			},
 			{
-				"title": "We Solve Problems, Not Create Them",
-				"text": "Our goal is to find 'how it is allowed to do' and offer all possible ways to bring your boldest plans to life, rather than saying 'how it is prohibited.'"
+				"title": "Openness to innovation",
+				"text": "From you – goals to achieve, from us – innovative ideas and ways how to make them reality with no or minimal risks."
 			},
 			{
-				"title": "Individual Approach",
-				"text": "Cases may be similar but never identical. We believe our advice goes beyond legal knowledge. We take an interest in understanding the Client's business processes to offer the most optimal business solution."
+				"title": "Individual approach",
+				"text": "The cases may be similar, but never identical. We believe our advice goes beyond legal knowledge. Understanding our Client’s business is essential for delivering optimal legal solutions."
 			}
-		],
-		"info": {
-			"text_first": "<b>Call Us</b> and receive your first consultation with a lawyer for free!",
-			"text_second": "<b>Call Us</b> and get a free initial consultation from a lawyer on",
-			"service": "<b>Services</b>"
-		}
+		]
+	},
+	"aboutPage": {
+		"title": "About Us",
+		"second_title": "Your Reliable Online Legal Services Partner.",
+		"third_title": "Created to find solutions to your problems, not obstacles to your plans.",
+		"list": [
+			{
+				"id": 1,
+				"image": "/image/about-1.webp",
+				"title": "Proud of our client base and successful market presence since 2018",
+				"text": "Our Law Association was founded in 2018 in Lviv – a Ukrainian IT hub where 9 of the top 100 global outsourcing companies are located. <br/> The implementation of the EU General Data Protection Regulation (GDPR) in May 2018, which established new 'rules of the game' in global markets, high fines, and an effective mechanism for accountability, influenced our specialization in the field of personal data."
+			},
+			{
+				"id": 2,
+				"image": "/image/about-2.webp",
+				"title": "Transition to online service delivery",
+				"text": "In 2020, due to the pandemic, <b>our services, contract signing, and payment went online.</b> <br> This expanded our client audience beyond our physical location, reduced unnecessary office maintenance costs to <b>make our service prices accessible to everyone.</b>"
+			},
+			{
+				"id": 3,
+				"image": "/image/about-3.webp",
+				"title": "Internationally recognized qualification of our team",
+				"text": "Today, our team includes highly qualified lawyers with over 10 years of experience, a Master of Laws (LLM) degree from a prestigious European university, and internationally recognized certificates in personal data protection from the International Association of Privacy Professionals (IAPP): <br> - <b>CIPP/E</b> (Certified Information Privacy Professional/Europe), certified professional in <b>European</b> personal data protection legislation.<br> - <b>CIPP/US</b> (Certified Information Privacy Professional/United States), certified professional in <b>US</b> personal data protection legislation.<br> - <b>CIPM</b> (Certified Information Privacy Manager), certified data protection manager.<br> - <b>CIPT</b> (Certified Information Privacy Technologist), certified <b>technical engineer</b> for data protection."
+			},
+			{
+				"id": 4,
+				"image": "/image/about-4.webp",
+				"title": "Our Mission",
+				"text": "Founded to solve your problems, not create new ones. Our goal is to find 'how it can be done' and propose all possible ways to implement your boldest plans, rather than saying 'how it cannot be done'. We will bring your business, internet platform, app, and website into compliance with international requirements so that EU, UK, and US markets are open to your services and goods without the risk of fines or reputation loss."
+			}
+		]
 	},
 	"footer": {
 		"copyright": "© 2018-2024. All rights reserved",
 		"terms": "Terms of Use",
 		"anonimus": "Privacy Policy",
-		"offer": "Legal Services Agreement (Public Offer)"
+		"offer": "Legal Services Agreement (public offer)"
+	},
+	"meta": {
+		"home": {
+			"title": "Адвокатське об’єднання - Ваша честь | Лідер ОНЛАЙН юридичних послуг",
+			"descr": "Ваш надійний партнер юридичних послуг онлайн. Створені для пошуку рішень Ваших проблем, а не перешкод для реалізації Ваших планів. Інтереси Клієнта –наш пріоритет, а наше завдання – знайти «потрібні» законодавчі положення з урахуванням Ваших потреб і специфіки Вашого бізнесу. Ми даємо зрозумілі і чіткі поради, план дій. Ваше завдання – розвивати бізнес, планувати, Наше – його надійно захищати і допомагати втіленню Ваших найсміливіших ідей. Від Вас – ідеї, від нас – нестандартні шляхи їх втілення й оцінка можливих законодавчих ризиків.",
+			"keywords": "адвокатське об’єднання Ваша Честь, Ваша Честь, юристи Ваша Честь, адвокатське об’єднання, адвокати Львів, адвокат Львів, адвокат Київ, адвокатське об’єднання Київ, адвокатське об’єднання Львів, адвокатська фірма, адвокатська фірма Львів,  адвокатська фірма Київ, юрист Львів, юрист онлайн Львів, юрист онлайн, онлайн юрист, онлайн юридичні послуги, онлайн адвокат, адвокат онлайн, ІТ юрист, ІТ юрист Львів, ІТ юрист Київ, послуги адвоката Львів, послуги адвоката Київ, послуги юриста, послуги юриста Львів, послуги юриста Київ, юридичні послуги, юридичні послуги Львів, юридичні послуги Київ, юридичні послуги онлайн, юридичні послуги іноземцям, англомовний юрист, юрист англійською, юридична допомога, юридична допомога Львів, юридична допомога Київ, онлайн юридична допомога,  юридична фірма, юридична фірма Львів, юридична фірма Київ, юридична компанія, юридична компанія Львів, юридична компанія Київ, юрист ІТ право, юрист захисту персональних даних, юрист із захисту персональних даних, корпоративний юрист, юрист для бізнесу, юрист для компанії, юридичні послуги для компанії, юрист ІТ працівників, CIPP/E Україна, IAPP Україна, CIPP/US Україна, CIPM Україна. CIPT Україна, уповноважений із захисту персональних даних, повірений із захисту персональних даних, дипломований юрист, юрист у справах з нерухомістю, юрист новобудови, юрист вторинний ринок житла, юрист купівля нерухомості, юрист купівля-продаж, юрист аналіз інвестицій, юрист інвестиції, юриста дарування, юрист договір поставки, юрист договір дарування, юрист договір купівлі-продажу, юрист топ послуги юриста, топ юридичні компанії, топ юридичні послуги, лідер онлайн юридичних послуг, лідер юридичних послуг, правова допомога, правова допомога Львів, правова допомога Київ, правова допомога онлайн, перевірка договору, юрист договірне право, юрист корпоративне право, юрист ІТ право, юрист консультації, юридичні консультації онлайн.",
+			"url": "https://advocate-online.com",
+			"image": "https://advocate-online.com/image/about-1.webp"
+		},
+		"services": {
+			"title": "Послуги | Адвокатське об’єднання - Ваша честь",
+			"descr": "",
+			"keywords": "",
+			"url": "https://advocate-online.com/services",
+			"image": "https://advocate-online.com/image/about-4.webp"
+		},
+		"personal-data-protection": {
+			"title": "Захист персональних даних | Адвокатське об’єднання - Ваша честь",
+			"descr": "",
+			"keywords": "",
+			"url": "https://advocate-online.com/services/personal-data-protection",
+			"image": "https://advocate-online.com/image/services-1.webp"
+		},
+		"for-companies": {
+			"title": "Послуги для компаній. Юридичний супровід Вашого бізнесу",
+			"descr": "",
+			"keywords": "",
+			"url": "https://advocate-online.com/services/for-companies",
+			"image": "https://advocate-online.com/image/services-2.webp"
+		},
+		"for-it-specialists": {
+			"title": "Послуги адвоката для ІТ спеціалістів",
+			"descr": "",
+			"keywords": "",
+			"url": "https://advocate-online.com/services/for-it-specialists",
+			"image": "https://advocate-online.com/image/services-3.webp"
+		},
+		"real-estate-investments": {
+			"title": "Нерухомість. Інвестиції | Адвокатське об’єднання - Ваша честь",
+			"descr": "",
+			"keywords": "",
+			"url": "https://advocate-online.com/services/real-estate-investments",
+			"image": "https://advocate-online.com/image/services-4.webp"
+		},
+		"court-representation-consulting": {
+			"title": "Судове представництво та консалтинг",
+			"descr": "",
+			"keywords": "",
+			"url": "https://advocate-online.com/services/court-representation-consulting",
+			"image": "https://advocate-online.com/image/services-5.webp"
+		},
+		"english-speaking-lawyer": {
+			"title": "Англомовний юрист | Адвокатське об’єднання - Ваша честь",
+			"descr": "",
+			"keywords": "",
+			"url": "https://advocate-online.com/services/english-speaking-lawyer",
+			"image": "https://advocate-online.com/image/services-6.webp"
+		},
+		"payment": {
+			"title": "Оплата | Адвокатське об’єднання - Ваша честь",
+			"descr": "Оплата онлайн за юридичні послуги, без необхідності йти в банк і сплачувати комісію. Доступна, легка й швидка  онлайн оплата послуг юриста в один клік. Жодних прихованих комісій чи додаткових оплат. Публічний договір, онлайн оплата  і доступність 24/7 є запорукою Нашого успіху.",
+			"keywords": "онлайн оплата послуг адвоката, онлайн оплата юриста, оплата юриста, оплата адвокат, інтернет оплата юриста, оплата послуг адвоката, юридичні послуги оплата, ІТ юрист оплата, послуги юриста оплата, ІТ юрист оплата, консультація юриста оплата, онлайн оплата консультація юриста, юридична фірма оплата послуг, оплата юридичних послуг, юридична допомога інтернет оплата, юридичний аутсорсинг оплата, аутсорсинг юридичних послуг оплата,  оплата  представництва в суді, оплата юридичний супровід, англомовний юрист оплата, послуги юриста компаніям оплата, , оплата ведення справи в суді, оплата складання договору, оплата договір онлайн, купити договір оплата, купити юридичні послуги, замовити юридичні послуги, замовити послуги юриста, замовити послуги адвоката, замовити правову допомогу, оплата за правову допомогу, юрист оплата за складання документів, оплата за ведення судових справ, оплата юридичного супроводу, доступна оплата юриста, доступний юрист, доступна правова допомога, оплата послуг DPO, захист персональних даних оплата, оплата аутсорсинг DPO.",
+			"url": "https://advocate-online.com/payment",
+			"image": "https://advocate-online.com/image/price-4.webp"
+		},
+		"pricing": {
+			"title": "Ціни | Адвокатське об’єднання - Ваша честь",
+			"descr": "Легка й швидка онлайн оплата послуг юриста в один клік. Вартість усіх послуг відома ще до початку роботи над справою, без «прихованих» комісій чи додаткових оплат. Послуги юриста доступні кожному. Чесність і прозорість у роботі з Клієнтами є запорукою Нашого успіху.",
+			"keywords": "ціни послуги адвоката, ціни юриста львів, ціни юриста київ, ціни адвокат львів, ціни адвокат київ, вартість послуг адвоката, юридичні послуги ціни Україна, ІТ юрист вартість, послуги юриста вартість, ІТ юрист ціна, консультація юриста ціна, консультація юриста вартість, юридична фірма розцінки, розцінки юридичних послуг, юридична допомога ціни, юридичний аутсорсинг ціни, аутсорсинг юридичних послуг ціни, ціна договору юрист, вартість представництва в суді, вартість юридичного супроводу, англомовний юрист ціна, послуги юриста компаніям ціна, прайс-лист адвокатської фірми, вартість ведення справи в суді, скільки коштує адвокат, вартість політика конфіденційності, вартість політика кукі, ціна політика конфіденційності, ціна політика кукі, ціна політика cookie, вартість юридичної консультації, ціна юридичної консультації, вартість складання договору, тарифи адвоката, оплата юридичних послуг, юрист ціна за складання документів, ціни за ведення судових справ, вартість юридичного супроводу, доступні ціни юриста, доступні ціни юриста Львів, доступні ціни юриста Київ, DPO ціни, ціни на послуги DPO, захист персональних даних ціни, вартість послуги  DPO, ціна аутсорсинг DPO.",
+			"url": "https://advocate-online.com/pricing",
+			"image": "https://advocate-online.com/image/price-3.webp"
+		},
+		"about": {
+			"title": "Про нас | Адвокатське об’єднання - Ваша честь",
+			"descr": "",
+			"keywords": "",
+			"url": "https://advocate-online.com/about",
+			"image": "https://advocate-online.com/image/about-3.webp"
+		},
+		"blog": {
+			"title": "Блог | Адвокатське об’єднання - Ваша честь",
+			"descr": "",
+			"keywords": "",
+			"url": "https://advocate-online.com/blog/",
+			"image": "https://advocate-online.com/image/about-2.webp"
+		}
 	}
 }
