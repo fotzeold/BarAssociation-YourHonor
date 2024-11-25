@@ -15,7 +15,7 @@ const ServicePage = () => {
 		if (id) {
 			setService(texts.services.page[id])
 		}
-	}, [id])
+	}, [id, texts])
 
 	if (service === null) return <Loader />
 

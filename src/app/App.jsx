@@ -9,6 +9,8 @@ import PaymentPage from "../pages/PaymentPage/PaymentPage"
 import PricingPage from "../pages/PricingPage/PricingPage"
 import ServicePage from "../pages/ServicePage/ServicePage"
 import ScrollToTop from "../components/ScrollToTop/ScrollToTop"
+import BlogPage from "../pages/BlogPage/BlogPage"
+import ArticlePage from "../pages/ArticlePage/ArticlePage"
 import { HelmetProvider } from "react-helmet-async"
 
 const App = () => {
@@ -26,6 +28,8 @@ const App = () => {
 						<Route path="/services/:id" element={<ServicePage />} />
 						<Route path="/payment" element={<PaymentPage />} />
 						<Route path="/pricing" element={<PricingPage />} />
+						<Route path="/blog" element={<BlogPage />} />
+						<Route path="/blog/:slug/:id" element={<ArticlePage />} />
 					</Routes>
 					<Footer />
 				</BrowserRouter>

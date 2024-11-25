@@ -47,7 +47,7 @@
 				"Consultations",
 				"Representation and protection of interests in disputes and courts"
 			],
-			"btn": "Learn More"
+			"btn": "Read More"
 		},
 		"law_service": {
 			"title": "LEGAL SERVICES",
@@ -176,6 +176,7 @@
 			}
 		]
 	},
+	"empty": "---------------------------------------------------------",
 	"aboutPage": {
 		"title": "About Us",
 		"second_title": "Your Reliable Online Legal Services Partner.",
@@ -207,6 +208,254 @@
 			}
 		]
 	},
+	"services": {
+		"title": "OUR SERVICES",
+		"second_title": "Your reliable partner for legal services online.",
+		"third_title": "Created to find solutions to your problems, not obstacles to achieving your plans.",
+		"btn": "Read more",
+		"page": {
+			"personal-data-protection": {
+				"more": "Learn more about",
+				"morePrice": "Pricing",
+				"morePayment": "and Payment",
+				"title": "Personal Data Protection",
+				"image": "/image/service-1-top.webp",
+				"topText": "Want to offer your products or services in the EU, UK, or US market? Then you are in the right place. <br> We will help align your website, application, and business with international requirements without the risk of fines or reputation loss.",
+				"content": "<h1>Personal Data Protection. Ensuring compliance of your website, application, and company activities with GDPR (EU), UK, and US requirements</h1><p>&nbsp;</p><ul><li>Website compliance (Privacy Policy, Terms of Use, Cookie Policy)</li><li>Development of internal company documents, contracts, procedures</li><li>Personal data audit (categories, contractors, types of processing, subprocessors)</li><li>Consent of personal data subjects</li><li>Privacy risk assessment for new products and services (DPIA, LIA, PIA)</li><li>Cross-border data transfer risk assessment (TIA)</li><li>Marketing of products and services in compliance with international privacy requirements</li><li>Information security</li><li>Assistance with compliance with ISO 27001, ISO 27701 for data protection</li><li>Implementation of technical and organizational data protection measures</li><li>Legalization of personal data processing (proportionality and necessity of legitimate interest, contract performance, validity of consent from data subjects, other grounds)</li><li>Data breach response: actions to take and parties to notify, data protection</li><li>Response to requests from individuals and regulatory authorities</li><li>Outsourcing services of a certified Data Protection Officer (DPO)</li><li>Consultations</li><li>Online training for employees involved in personal data processing</li></ul>"
+			},
+			"for-companies": {
+				"more": "Learn more about",
+				"morePrice": "Pricing",
+				"morePayment": "and Payment",
+				"title": "Services for Companies - Legal Support for Your Business",
+				"image": "/image/service-2-top.webp",
+				"topText": "Services for Companies. Legal Support for Your Business",
+				"content": "<h1>Legal Support for Your Business</h1><p><span style=\"color: #ff0000;\">IT Law</span></p><p><span style=\"color: #000000;\">English-speaking lawyer</span><span style=\"color: #000000;\"> <br />Consultations on any legal matters <br />Taxation in any foreign country, currency control, use of electronic money <br />Negotiations with contractors and agreement on contract terms, cooperation</span></p><h2>All types of contracts, including:</h2><ul><li>Service Agreement</li><li>Sales Agreement</li><li>Software Development Agreement</li><li>Service Agreement, Sales Agreement, Purchase Order</li><li>Non-Disclosure Agreement (NDA)</li><li>Non-Compete Agreement (NCA)</li><li>Non-Solicitation, Waiver of Rights</li><li>Separation Agreement (termination of contract) regarding intellectual property rights</li><li>Employment contracts, internal company policies</li><li>Intellectual Property Protection Agreement</li></ul><h2>Development of internal company documents:</h2><p>Protection of intellectual property rights (for works, programs, designs, and trade secrets) <br /><span style=\"color: #ff0000;\">Pre-trial and court disputes</span></p>"
+			},
+			"for-it-specialists": {
+				"more": "Learn more about",
+				"morePrice": "Pricing",
+				"morePayment": "and Payment",
+				"title": "Lawyer Services for IT Specialists",
+				"image": "/image/service-3-top.webp",
+				"topText": "Lawyer Services for IT Specialists",
+				"content": "<p style='font-size: 24px'><em>Have you signed a Non-Disclosure Agreement (NDA) or confidentiality obligation? Rest assured, <strong>Your information and documents are securely protected by our attorney-client privilege</strong>, and you will not breach your commitments.</em></p><h1>Analysis of all types of agreements and consents:</h1><ul><li>Non-Disclosure Agreement</li><li>Non-Compete Agreement</li><li>Non-Solicitation Agreement</li><li>Software Development Agreement</li><li>Service Agreement</li><li>Intellectual Property Rights Agreement</li><li>Employment Contract</li><li>Termination of Cooperation Agreement</li><li>Waiver of Rights</li></ul><p><strong>Analysis of all risks, potential liabilities, and ways to avoid them, making amendments to the most problematic provisions.</strong></p><p><strong>Explanation of the laws of the relevant US state, EU, or UK </strong>regarding risks not outlined in the agreement that may arise during its execution.</p><p>Protection of intellectual property rights for works, programs, designs, and trade secrets.</p><p><strong>Consultations</strong> on any legal issues</p>"
+			},
+			"real-estate-investments": {
+				"more": "Learn more about",
+				"morePrice": "Pricing",
+				"morePayment": "and Payment",
+				"title": "Lawyer Services - Real Estate. Investments",
+				"image": "/image/service-4-top.webp",
+				"topText": "Real Estate. Investments",
+				"content": "<p><strong>Protect your savings. Don’t fall victim to fraud or become the owner of a “property” that will never be commissioned.</strong></p><p><strong>Be informed about all risks and “hidden pitfalls” of future housing, whether concealed or “not disclosed” by the developer.</strong></p><p><strong>Without legal analysis of the property and consultation with a qualified lawyer, you might not only face unexpected expenses but also lose all your savings and miss out on your dream home.</strong></p><p>Do not believe that purchasing real estate on the secondary market or through a realtor means you are “protected” and won’t fall victim to fraud. Paying for realtor services DOES NOT PROTECT you from fraudulent schemes.<strong><br /></strong></p><p>Fraudulent schemes constantly evolve and are designed for such “protected” buyers who want to “save” on lawyer services, trust but don’t verify document authenticity, or overlook “minor” inaccuracies in documents due to a “bargain” price. They often fail to check for legal disputes or challenges to the seller’s ownership rights by third parties.</p><p>Many buyers give thousands of dollars in down payments for apartments and sign agreements without legally effective grounds for refunding such payments later.</p><p>Purchase property without hidden “surprises.” Don’t become one of several “owners” of a single property or fall for forged documents. Sleep peacefully instead of spending years in court with no chance of recovering your funds.</p><h1 style='text-align: center;'>LEGAL ANALYSIS OF REAL ESTATE SALE-PURCHASE DOCUMENTS IN NEW BUILDINGS AND ON THE SECONDARY MARKET</h1><p>Consultations on <strong>tax payments</strong> related to real estate transactions.</p><p><strong>Gift and rental agreements for real estate.</strong></p><p><strong>Preparation of purchase, rental, or gift agreement texts on terms most favorable to the Client.</strong></p><p><strong>Developer, seller, and transaction legality analysis:</strong></p><ul><li>Responsibilities and compliance with legislative provisions.</li><li><strong>Developer verification</strong> (licenses/permits, charter capital, founders, establishment date, leadership, tax debts, enforcement proceedings, bankruptcy, or dissolution).</li><li><strong>Verification of legal disputes and debts</strong> of the seller, developer, general contractor, or construction customer.</li><li><strong>Land plot documentation check:</strong> targeted purpose, lease agreement validity, legality, and existing legal disputes.</li><li>Parties involved and legality of existing agreements or contracts related to the real estate.</li><li><strong>Registry data checks</strong>: State Register of Property Rights, Property Ownership Registry, Mortgage Registry, Unified Registry of Prohibition of Property Alienation.</li><li><strong>Verification of legal disputes</strong> concerning the seller of the apartment under the contract.</li><li><strong>Review of construction and technical documentation</strong>: urban planning conditions, building permits, construction expert reports, local and state government approvals.</li><li><strong>Contractual authorization and proper property identification</strong> – correct location indication.</li><li><strong>Analysis of other developments</strong> that have or haven’t been successfully completed and commissioned.</li></ul><p><strong>Explanation of risks and “pitfalls,”</strong> guarantees for fund returns in case of obligations violations.</p><p><strong>Consultation on property inspections, advance payment, or deposit nuances,</strong></p><p><strong>Real estate agent agreement:</strong> terms analysis, consultation, and amendment suggestions.</p><p><strong>Deposit agreement:</strong> review, consultation, risk explanation, and amendment proposals.</p><h3 style='text-align: center;'><strong>INVESTMENTS&nbsp;</strong><br><strong>INVEST WISELY AND SAVE YOUR PEACE OF MIND!</strong></h3><h2><strong>Don’t fall victim to fraud and deceptive investments.</strong></h2><p><strong>Verification of proposed investment schemes:</strong> legality, taxation, legal disputes, validity of proposed income, payment terms, interest accrual, and refund procedures.</p><p><strong>Online investigation of potential partners:</strong> presence of required licenses/permits, charter capital, founders, establishment dates, business activities, tax debts, legal disputes, and bankruptcy/liquidation status.</p><p><strong>Verification of potential partners</strong> – individuals: powers, real estate ownership, legal or enforcement proceedings, and debtor registry inclusion.</p><p><strong>Contract analysis</strong> (investment, cooperation agreements) or other agreements for investment.</p><p>Explanation of risks, “pitfalls,” liabilities, guarantees for promised returns, and refund of investments in case of partner violations.</p><p><strong>Proposal of new, most beneficial contract terms for the Client.</strong></p>"
+			},
+			"court-representation-consulting": {
+				"more": "Learn more about",
+				"morePrice": "Pricing",
+				"morePayment": "and Payment",
+				"title": "Court Representation and Consulting",
+				"image": "/image/service-5-top.webp",
+				"topText": "Court Representation and Consulting",
+				"content": "<h1>Court Representation and Consulting</h1><ul><li>Pre-trial and trial dispute resolution.</li><li>Lawyer services.</li><li>Consultations.</li><li>Strategy development to achieve desired results.</li><li>Analysis of judicial practice.</li><li>Document analysis, case evaluation, and cost forecasting.</li><li>Lawyer requests, evidence collection, obtaining necessary information, and document copies.</li><li>Representation of citizens and businesses in courts of all instances, state bodies, and organizations.</li><li>Preparation and submission of procedural documents (claims, appeals, cassations, motions).</li><li>Support for enforcement proceedings and debt recovery.</li><li>Appeal of unlawful actions or inactions of state bodies, local governments, or their officials.</li></ul>"
+			},
+			"english-speaking-lawyer": {
+				"more": "Learn more about",
+				"morePrice": "Pricing",
+				"morePayment": "and Payment",
+				"title": "Lawyer Services - English-Speaking Lawyer",
+				"image": "/image/service-6-top.webp",
+				"topText": "English-Speaking Lawyer",
+				"content": "<h1>English-Speaking Lawyer</h1><ul><li>Contract and document analysis and translation.</li><li>Counterparty verification.</li><li>Negotiations with counterparties.</li><li>Drafting of any agreements and documents in English.</li></ul><h2>Why You Need an English-Speaking Lawyer...</h2>"
+			}
+		},
+		"list": [
+			{
+				"id": "personal-data-protection",
+				"title": "PERSONAL DATA PROTECTION",
+				"image": "/image/services-1.webp",
+				"subtitle": "",
+				"ul": [
+					"Privacy Policy",
+					"Terms of Use",
+					"Cookie Policy",
+					"Data Processing Agreement",
+					"Compliance of Products and Services",
+					"Personal Data Audit",
+					"Information Security",
+					"Responses to Requests",
+					"DPO Representative Services (EU)",
+					"Consultations"
+				]
+			},
+			{
+				"id": "for-companies",
+				"title": "FOR COMPANIES",
+				"image": "/image/services-2.webp",
+				"subtitle": "Legal support for your business",
+				"ul": [
+					"IT Law",
+					"Contracts",
+					"Development of Internal Documents",
+					"Consultations on any legal issues",
+					"Taxation",
+					"Negotiations with Counterparties",
+					"Protection of Intellectual Property Rights"
+				]
+			},
+			{
+				"id": "for-it-specialists",
+				"title": "FOR IT SPECIALISTS",
+				"image": "/image/services-3.webp",
+				"subtitle": "",
+				"ul": [
+					"Analysis of all types of contracts",
+					"Explanation of risks and liabilities",
+					"Amendments to problematic clauses",
+					"Protection of Intellectual Property Rights",
+					"Consultations"
+				]
+			},
+			{
+				"id": "real-estate-investments",
+				"title": "REAL ESTATE AND INVESTMENTS",
+				"image": "/image/services-4.webp",
+				"subtitle": "",
+				"ul": [
+					"Analysis and verification of documents for new buildings and secondary market properties",
+					"Verification of investment schemes to avoid fraud",
+					"Developer checks",
+					"Buying and Selling",
+					"Gift Agreements",
+					"Leasing"
+				]
+			},
+			{
+				"id": "court-representation-consulting",
+				"title": "COURT REPRESENTATION AND CONSULTING",
+				"image": "/image/services-5.webp",
+				"subtitle": "",
+				"ul": [
+					"Pre-trial and court disputes",
+					"Consultations",
+					"Legal Inquiries",
+					"Representation in courts and organizations",
+					"Enforcement Proceedings"
+				]
+			},
+			{
+				"id": "english-speaking-lawyer",
+				"title": "ENGLISH-SPEAKING LAWYER",
+				"image": "/image/services-6.webp",
+				"subtitle": "",
+				"ul": [
+					"Analysis and translation of contracts and documents",
+					"Counterparty checks",
+					"Negotiations with counterparties",
+					"Development of any contracts and documents in English"
+				]
+			}
+		]
+	},
+	"paymentPage": {
+		"second_title": "Easy and fast online payments in one click are a significant advantage in working with clients.",
+		"title": "HOW TO ORDER OUR SERVICES?",
+		"list": [
+			{
+				"id": 1,
+				"text": "Call or write to us and describe the details of your issue",
+				"image": "/image/payment-1.svg"
+			},
+			{
+				"id": 2,
+				"text": "Receive a list of services, costs, and timelines for their completion",
+				"image": "/image/payment-2.svg"
+			},
+			{
+				"id": 3,
+				"text": "Familiarize yourself with the text of the Public Service Agreement (offer)",
+				"image": "/image/payment-3.svg"
+			},
+			{
+				"id": 4,
+				"text": "Pay a deposit of 50% of the service cost",
+				"image": "/image/payment-4.svg"
+			},
+			{
+				"id": 5,
+				"text": "Receive quality services at the agreed time. Pay the remaining 50% of the cost",
+				"image": "/image/payment-5.svg"
+			}
+		],
+		"paynow_btn": "Pay Now",
+		"more_price": "Learn more about Pricing.",
+		"payment_service": "Payments via bank cards are processed by <a target='_blank' href='https://easypay.ua/ua'>EasyPay.</a>"
+	},
+	"pricingPage": {
+		"second_title": "Honesty and transparency in working with clients are the keys to our success.",
+		"third_title": "Easy and fast online payments in one click are a significant advantage in working with clients.",
+		"title": "Service costs are an important criterion when choosing a lawyer.",
+		"subtitle": "The client has the right to understand the costs they will incur and how the price for a specific service is formed before the cooperation begins and payment is made.",
+		"garantTitle": "WE GUARANTEE",
+		"garantList": [
+			{
+				"image": "/image/price-1.webp",
+				"text": "The cost of all services is known before work on the case begins"
+			},
+			{
+				"image": "/image/price-2.webp",
+				"text": "No 'hidden' fees or additional payments"
+			},
+			{
+				"image": "/image/price-3.webp",
+				"text": "Easy and fast online payments in one click"
+			},
+			{
+				"image": "/image/price-4.webp",
+				"text": "A clear and consistent pricing structure for all clients"
+			}
+		],
+		"totalTitle": "SERVICE COSTS",
+		"totalSubtitle": "Our services are available to everyone online; contracts and payments can be made online. This allows us to avoid unnecessary office maintenance costs, making our service prices accessible to everyone.",
+		"pricingTitle": "Service costs depend on:",
+		"pricingList": [
+			{
+				"image": "/image/price-top1.svg",
+				"text": "The volume and complexity of the case"
+			},
+			{
+				"image": "/image/price-top2.svg",
+				"text": "Time expenditures"
+			},
+			{
+				"image": "/image/price-top3.svg",
+				"text": "The urgency of solving the problem"
+			}
+		],
+		"pricingListBottom": [
+			"We strive to estimate the cost of services as accurately as possible in advance so that the client understands the expected expenses.",
+			"We have nothing to hide, so we are always ready to explain all components of service costs.",
+			"Our goal is satisfied clients who recommend us to others and share their positive experiences."
+		],
+		"howTitle": "HOW TO FIND OUT THE COST OF SOLVING YOUR ISSUE?",
+		"howList": [
+			{
+				"image": "/image/price-bottom1.svg",
+				"text": "Call or write to us and describe the details of your issue"
+			},
+			{
+				"image": "/image/price-bottom2.svg",
+				"text": "Our lawyer will analyze the problem, review documents, and provide a free consultation"
+			},
+			{
+				"image": "/image/price-bottom3.svg",
+				"text": "Receive a list of services, their costs, and timelines"
+			}
+		],
+		"moreInfo": "Learn more about the payment process",
+		"moreInfoLink": "Services."
+	},
+	"empty2": "---------------------------------------------------------",
 	"footer": {
 		"copyright": "© 2018-2024. All rights reserved",
 		"terms": "Terms of Use",
@@ -215,86 +464,86 @@
 	},
 	"meta": {
 		"home": {
-			"title": "Адвокатське об’єднання - Ваша честь | Лідер ОНЛАЙН юридичних послуг",
-			"descr": "Ваш надійний партнер юридичних послуг онлайн. Створені для пошуку рішень Ваших проблем, а не перешкод для реалізації Ваших планів. Інтереси Клієнта –наш пріоритет, а наше завдання – знайти «потрібні» законодавчі положення з урахуванням Ваших потреб і специфіки Вашого бізнесу. Ми даємо зрозумілі і чіткі поради, план дій. Ваше завдання – розвивати бізнес, планувати, Наше – його надійно захищати і допомагати втіленню Ваших найсміливіших ідей. Від Вас – ідеї, від нас – нестандартні шляхи їх втілення й оцінка можливих законодавчих ризиків.",
-			"keywords": "адвокатське об’єднання Ваша Честь, Ваша Честь, юристи Ваша Честь, адвокатське об’єднання, адвокати Львів, адвокат Львів, адвокат Київ, адвокатське об’єднання Київ, адвокатське об’єднання Львів, адвокатська фірма, адвокатська фірма Львів,  адвокатська фірма Київ, юрист Львів, юрист онлайн Львів, юрист онлайн, онлайн юрист, онлайн юридичні послуги, онлайн адвокат, адвокат онлайн, ІТ юрист, ІТ юрист Львів, ІТ юрист Київ, послуги адвоката Львів, послуги адвоката Київ, послуги юриста, послуги юриста Львів, послуги юриста Київ, юридичні послуги, юридичні послуги Львів, юридичні послуги Київ, юридичні послуги онлайн, юридичні послуги іноземцям, англомовний юрист, юрист англійською, юридична допомога, юридична допомога Львів, юридична допомога Київ, онлайн юридична допомога,  юридична фірма, юридична фірма Львів, юридична фірма Київ, юридична компанія, юридична компанія Львів, юридична компанія Київ, юрист ІТ право, юрист захисту персональних даних, юрист із захисту персональних даних, корпоративний юрист, юрист для бізнесу, юрист для компанії, юридичні послуги для компанії, юрист ІТ працівників, CIPP/E Україна, IAPP Україна, CIPP/US Україна, CIPM Україна. CIPT Україна, уповноважений із захисту персональних даних, повірений із захисту персональних даних, дипломований юрист, юрист у справах з нерухомістю, юрист новобудови, юрист вторинний ринок житла, юрист купівля нерухомості, юрист купівля-продаж, юрист аналіз інвестицій, юрист інвестиції, юриста дарування, юрист договір поставки, юрист договір дарування, юрист договір купівлі-продажу, юрист топ послуги юриста, топ юридичні компанії, топ юридичні послуги, лідер онлайн юридичних послуг, лідер юридичних послуг, правова допомога, правова допомога Львів, правова допомога Київ, правова допомога онлайн, перевірка договору, юрист договірне право, юрист корпоративне право, юрист ІТ право, юрист консультації, юридичні консультації онлайн.",
+			"title": "Advocates’ Association - Your Honor | Your #1 trusted ONLINE Legal Solution",
+			"descr": "Your trusted #1 Online Legal Services. Your wishes are our #1  priority, and our task is to find the right solution and legislative provisions taking into account your needs and the specifics of your business.We say how you “can do” and find out all the possible solutions to make all your daring  ideas “go live”, instead of saying how you “can’t do”. We provide clear and comprehensive plan of actions, structured and easy to understand advices, with a number of actions or steps needed to achieve your goals. While you develop your business, we safeguard it. ",
+			"keywords": "law firm Vasha Chest, lawyer Lviv, lawyer Kyiv, legal services, online lawyer, IT lawyer, English-speaking lawyer, legal assistance, legal support, corporate law lawyer, contract review, online legal consultations, business lawyer, law office, legal company Lviv, Kyiv.",
 			"url": "https://advocate-online.com",
 			"image": "https://advocate-online.com/image/about-1.webp"
 		},
 		"services": {
-			"title": "Послуги | Адвокатське об’єднання - Ваша честь",
-			"descr": "",
-			"keywords": "",
+			"title": "Services | Advocates’ Association - Your Honor",
+			"descr": "Personal data protection, GDPR compliance of business, website and application. Online legal services for IT employees, companies in IT, fintech and iGaming industries, marketplaces, selling goods or providing services in EU, UK and USA. Analysis of new housing, investments and real estate purchases on the secondary market. Online legal consultations, litigation and out-of-court dispute resolution.",
+			"keywords": "Privacy Policy, Terms of Use, Cookie Policy, Development of Cookie Policy, Writing Privacy Policy, Cookie Policy Development",
 			"url": "https://advocate-online.com/services",
 			"image": "https://advocate-online.com/image/about-4.webp"
 		},
 		"personal-data-protection": {
-			"title": "Захист персональних даних | Адвокатське об’єднання - Ваша честь",
-			"descr": "",
-			"keywords": "",
+			"title": "Personal data protection | Advocates’ Association - Your Honor",
+			"descr": "Our company provides legal services to ensure the protection of personal data in accordance with the requirements of the law. We help companies comply with confidentiality regulations, protect the personal data of clients and employees, and implement strategies to comply with GDPR and other legal frameworks.",
+			"keywords": "personal data protection, GDPR, confidentiality, data security, legal support, information protection, legal compliance.",
 			"url": "https://advocate-online.com/services/personal-data-protection",
 			"image": "https://advocate-online.com/image/services-1.webp"
 		},
 		"for-companies": {
-			"title": "Послуги для компаній. Юридичний супровід Вашого бізнесу",
-			"descr": "",
-			"keywords": "",
+			"title": "Services for companies. Legal support of your business",
+			"descr": "We offer a full range of legal services for businesses, including company registration, contract drafting, business protection, and corporate law consulting. Our lawyers work towards results, helping optimize legal processes for your company.",
+			"keywords": "Legal services for companies, business legal support, corporate law, company registration, legal consulting, business protection",
 			"url": "https://advocate-online.com/services/for-companies",
 			"image": "https://advocate-online.com/image/services-2.webp"
 		},
 		"for-it-specialists": {
-			"title": "Послуги адвоката для ІТ спеціалістів",
-			"descr": "",
-			"keywords": "",
+			"title": "Lawyer services for IT specialists",
+			"descr": "We provide professional legal assistance to IT specialists and companies, ensuring the protection of intellectual property, drafting contracts and agreements, as well as resolving disputes in the technology sector. Our lawyers have experience working with IT companies and programmers, offering support at every stage.",
+			"keywords": "legal services for IT, intellectual property protection, software licensing, contracts for IT companies, IT specialists' rights, legal support for programmers.",
 			"url": "https://advocate-online.com/services/for-it-specialists",
 			"image": "https://advocate-online.com/image/services-3.webp"
 		},
 		"real-estate-investments": {
-			"title": "Нерухомість. Інвестиції | Адвокатське об’єднання - Ваша честь",
-			"descr": "",
-			"keywords": "",
+			"title": "Real Estate. Investments | Advocates’ Association - Your Honor",
+			"descr": "We offer professional legal support for real estate transactions and investments in this sector. Our lawyers help verify the legal status of properties, organize investment deals, and provide legal guidance throughout the process of buying and selling real estate.",
+			"keywords": "real estate legal services, real estate investments, property transactions, property ownership verification, investment support, legal analysis of real estate",
 			"url": "https://advocate-online.com/services/real-estate-investments",
 			"image": "https://advocate-online.com/image/services-4.webp"
 		},
 		"court-representation-consulting": {
-			"title": "Судове представництво та консалтинг",
-			"descr": "",
-			"keywords": "",
+			"title": "Litigation and Consulting",
+			"descr": "We provide professional litigation support and consulting in complex legal situations. Our lawyers offer qualified assistance in legal disputes, protect your rights and interests in court, and consult on various legal matters.",
+			"keywords": "litigation support, legal consulting, court proceedings, court representation, legal assistance, legal advice, rights protection",
 			"url": "https://advocate-online.com/services/court-representation-consulting",
 			"image": "https://advocate-online.com/image/services-5.webp"
 		},
 		"english-speaking-lawyer": {
-			"title": "Англомовний юрист | Адвокатське об’єднання - Ваша честь",
-			"descr": "",
-			"keywords": "",
+			"title": "English-speaking lawyer | Advocates’ Association - Your Honor",
+			"descr": "Our English-speaking lawyers provide legal services for international clients, offering legal support and consultations in English. We assist with drafting contracts, agreements, and other documents, as well as providing support in court and administrative matters.",
+			"keywords": "English-speaking lawyer, legal services in English, legal assistance for foreigners, international client support, legal translation services.",
 			"url": "https://advocate-online.com/services/english-speaking-lawyer",
 			"image": "https://advocate-online.com/image/services-6.webp"
 		},
 		"payment": {
-			"title": "Оплата | Адвокатське об’єднання - Ваша честь",
-			"descr": "Оплата онлайн за юридичні послуги, без необхідності йти в банк і сплачувати комісію. Доступна, легка й швидка  онлайн оплата послуг юриста в один клік. Жодних прихованих комісій чи додаткових оплат. Публічний договір, онлайн оплата  і доступність 24/7 є запорукою Нашого успіху.",
-			"keywords": "онлайн оплата послуг адвоката, онлайн оплата юриста, оплата юриста, оплата адвокат, інтернет оплата юриста, оплата послуг адвоката, юридичні послуги оплата, ІТ юрист оплата, послуги юриста оплата, ІТ юрист оплата, консультація юриста оплата, онлайн оплата консультація юриста, юридична фірма оплата послуг, оплата юридичних послуг, юридична допомога інтернет оплата, юридичний аутсорсинг оплата, аутсорсинг юридичних послуг оплата,  оплата  представництва в суді, оплата юридичний супровід, англомовний юрист оплата, послуги юриста компаніям оплата, , оплата ведення справи в суді, оплата складання договору, оплата договір онлайн, купити договір оплата, купити юридичні послуги, замовити юридичні послуги, замовити послуги юриста, замовити послуги адвоката, замовити правову допомогу, оплата за правову допомогу, юрист оплата за складання документів, оплата за ведення судових справ, оплата юридичного супроводу, доступна оплата юриста, доступний юрист, доступна правова допомога, оплата послуг DPO, захист персональних даних оплата, оплата аутсорсинг DPO.",
+			"title": "Payment | Advocates’ Association - Your Honor",
+			"descr": "Convenient online payment for legal services, without the need to pay any commission or go to the  bank. Innovators among law firms: affordable, easy and fast online payment for services just in one click. No hidden fees or additional payments, publicly available services agreement, available 24/7 online payment are crucial for our Clients, using modern technologies and operating on global markets.",
 			"url": "https://advocate-online.com/payment",
+			"keywords": "online payment for legal services, no commission payment, bank-free payment, innovators in law firms, affordable legal services, easy and fast online payment, one-click payment, no hidden fees, publicly available services agreement, 24/7 online payment, modern technologies in law, global market law firms.",
 			"image": "https://advocate-online.com/image/price-4.webp"
 		},
 		"pricing": {
-			"title": "Ціни | Адвокатське об’єднання - Ваша честь",
-			"descr": "Легка й швидка онлайн оплата послуг юриста в один клік. Вартість усіх послуг відома ще до початку роботи над справою, без «прихованих» комісій чи додаткових оплат. Послуги юриста доступні кожному. Чесність і прозорість у роботі з Клієнтами є запорукою Нашого успіху.",
-			"keywords": "ціни послуги адвоката, ціни юриста львів, ціни юриста київ, ціни адвокат львів, ціни адвокат київ, вартість послуг адвоката, юридичні послуги ціни Україна, ІТ юрист вартість, послуги юриста вартість, ІТ юрист ціна, консультація юриста ціна, консультація юриста вартість, юридична фірма розцінки, розцінки юридичних послуг, юридична допомога ціни, юридичний аутсорсинг ціни, аутсорсинг юридичних послуг ціни, ціна договору юрист, вартість представництва в суді, вартість юридичного супроводу, англомовний юрист ціна, послуги юриста компаніям ціна, прайс-лист адвокатської фірми, вартість ведення справи в суді, скільки коштує адвокат, вартість політика конфіденційності, вартість політика кукі, ціна політика конфіденційності, ціна політика кукі, ціна політика cookie, вартість юридичної консультації, ціна юридичної консультації, вартість складання договору, тарифи адвоката, оплата юридичних послуг, юрист ціна за складання документів, ціни за ведення судових справ, вартість юридичного супроводу, доступні ціни юриста, доступні ціни юриста Львів, доступні ціни юриста Київ, DPO ціни, ціни на послуги DPO, захист персональних даних ціни, вартість послуги  DPO, ціна аутсорсинг DPO.",
+			"title": "Pricing | | Advocates’ Association - Your Honor",
+			"descr": "Strategic planning and predictability of costs are crucial for every successful business. The price of our services is known beforehand. Without any hidden commissions or additional payments. Legal Services are affordable for anyone, from startups and individuals to large enterprises. We believe that transparency in working with Clients is the key to our success.",
+			"keywords": "strategic planning, predictability of costs, affordable legal services, transparent pricing, no hidden fees, no additional payments, legal services for startups, legal services for individuals, legal services for enterprises, transparency with clients, successful business, fixed service pricing.",
 			"url": "https://advocate-online.com/pricing",
 			"image": "https://advocate-online.com/image/price-3.webp"
 		},
 		"about": {
-			"title": "Про нас | Адвокатське об’єднання - Ваша честь",
-			"descr": "",
-			"keywords": "",
+			"title": "About us | Advocates’ Association - Your Honor",
+			"descr": "Founded to find solutions to your problems, but not the obstacles to your plans. Since 2018 we provide  online legal services, available in any country, from any device, on publicly available terms of service agreement, with 24/7 fast and easy online payment. Our main Clients are startups, IT employees and companies in the IT, fintech and iGaming industries.",
+			"keywords": "online legal services, solutions for your problems, legal services since 2018, available in any country, accessible on any device, publicly available terms of service agreement, 24/7 fast online payment, legal services for startups, legal services for IT employees, legal services for IT companies, fintech legal services, iGaming legal services.",
 			"url": "https://advocate-online.com/about",
 			"image": "https://advocate-online.com/image/about-3.webp"
 		},
 		"blog": {
-			"title": "Блог | Адвокатське об’єднання - Ваша честь",
-			"descr": "",
-			"keywords": "",
+			"title": "Blog | Advocates’ Association - Your Honor",
+			"descr": "Be informed, prepared, and confident. Legal news, legislative updates, insights, free advices and tips of lawyers. Top legal blog in IT Law, personal data protection, GDPR, AI, corporate law and real estate. If you are aware of legislative changes today – You will be ready to face any challenges tomorrow.",
+			"keywords": "Your Honor, Blog, legal blog, law blog, legislative blog, legal news, new law, new laws, articles, legal articles, legal terms, legal insights, IT news, AI news, GDPR news, legal inquiry, legal arguments, legal tips, legal advice, law advice, legal advices, advices from a lawyer, legalese, legal advice blog, legal blog articles, legal news today, legal terms, legal updates, legislative updates, latest legal updates, best legal blogs, top legal blogs, legal opinions, opinions of a lawyer, law news today, free legal advice, free legal tips, free legal consultation, legal consultation free of charge.",
 			"url": "https://advocate-online.com/blog/",
 			"image": "https://advocate-online.com/image/about-2.webp"
 		}
