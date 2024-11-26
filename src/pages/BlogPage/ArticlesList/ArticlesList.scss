@@ -1,0 +1,39 @@
+section.articles-list{
+	margin: 40px 0;
+	.articles-list__wrapper{
+		display: flex;
+		gap: 20px;
+		flex-wrap: wrap;
+	}
+	.articles-list__title{
+		display: flex;
+		margin-bottom: 30px;
+		gap: 6px;
+		align-items: center;
+		.title__figure{
+			width: 30px;
+			height: 30px;
+			position: relative;
+			overflow: hidden;
+			figure{
+				position: absolute;
+				top: -5px;
+				left: 5px;
+				background: #00B0F2;
+				width: 20px;
+				height: 40px;
+				transform: rotate(-15deg);
+			}
+		}
+		h2{
+			font-size: 32px;
+			display: flex;
+		}
+	}
+}
+
+@media all and (max-width: 640px) {
+	section.articles-list{
+		
+	}
+}

@@ -17,6 +17,9 @@ import visa from "../assets/icons/Visa.svg"
 import easyPay from "../assets/icons/easypay.svg"
 import masrercard from "../assets/icons/masrercard.svg"
 import loader from "../assets/icons/loader.svg"
+import star from "../assets/icons/Star.svg"
+import searchBtn from "../assets/icons/search-btn.svg"
+import errorPage from "../assets/icons/error.svg"
 
 import hs1 from "../assets/icons/h-s1.svg"
 import hs2 from "../assets/icons/h-s2.svg"
@@ -49,5 +52,8 @@ export const icons = {
 	easyPay,
 	masrercard,
 	loader,
+	star,
+	searchBtn,
+	errorPage,
 	hsIconsList: [hs1, hs2, hs3, hs4, hs5, hs6, hs7, hs8, hs9]
 }

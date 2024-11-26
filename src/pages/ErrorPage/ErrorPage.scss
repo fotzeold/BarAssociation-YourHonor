@@ -1,0 +1,19 @@
+.error-main{
+	border-top: 1px solid #00B0F2;
+}
+section.error-page{
+	margin: 60px 0;
+	img{
+		object-fit: contain;
+	}
+	.link{
+		font-size: 20px;
+		display: block;
+		text-align: center;
+	}
+	h1{
+		text-align: center;
+		margin-bottom: 20px;
+
+	}
+}

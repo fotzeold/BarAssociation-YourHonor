@@ -11,6 +11,7 @@ import ServicePage from "../pages/ServicePage/ServicePage"
 import ScrollToTop from "../components/ScrollToTop/ScrollToTop"
 import BlogPage from "../pages/BlogPage/BlogPage"
 import ArticlePage from "../pages/ArticlePage/ArticlePage"
+import ErrorPage from "../pages/ErrorPage/ErrorPage"
 import { HelmetProvider } from "react-helmet-async"
 
 const App = () => {
@@ -30,6 +31,12 @@ const App = () => {
 						<Route path="/pricing" element={<PricingPage />} />
 						<Route path="/blog" element={<BlogPage />} />
 						<Route path="/blog/:slug/:id" element={<ArticlePage />} />
+						<Route path="/error" element={<ErrorPage />} />
+						<Route path="*" element={<ErrorPage
+							message={"Схоже ви загубились. Такої сторінки немає!"}
+							linkText={"Повернутися на головну"}
+							linkTo={"/"}
+						/>} />
 					</Routes>
 					<Footer />
 				</BrowserRouter>

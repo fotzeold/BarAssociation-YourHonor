@@ -455,6 +455,16 @@
 		"moreInfo": "Learn more about the payment process",
 		"moreInfoLink": "Services."
 	},
+	"blog": {
+		"second_title": "Have the latest legislative changes today - you will be ready and confident for tomorrow.",
+		"third_title": "He who has information is armed.",
+		"title": "Legal Blog",
+		"new_text": "New article",
+		"read_more": "Read more",
+		"search": "Search",
+		"category_text": "Select a category",
+		"articles_title": "Articles"
+	},
 	"empty2": "---------------------------------------------------------",
 	"footer": {
 		"copyright": "© 2018-2024. All rights reserved",

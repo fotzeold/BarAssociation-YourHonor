@@ -52,6 +52,13 @@
 	color: #08083b;
 }
 
+#root {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	min-height: 100vh;
+}
+
 body {
 	background: #f6f6f6;
 	overflow: auto;
@@ -131,6 +138,10 @@ a {
 }
 .logo__second {
 	font-size: 18px;
+}
+
+footer {
+	margin-top: auto;
 }
 
 @media all and (max-width: 640px) {
