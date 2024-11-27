@@ -1,11 +1,12 @@
 import { useState, useEffect } from 'react';
-import { getArticles, getArticlesByCategory } from '../../api/api';
+import { getArticles, getArticlesByCategory, searchArticles } from '../../api/api';
 import { useLanguage } from "../../context/LanguageContext"
 import TopPage from '../../components/TopPage/TopPage';
 import HeroBlog from './HeroBlog/HeroBlog';
 import ArticlesList from './ArticlesList/ArticlesList';
 import Pagination from './Pagination/Pagination';
 import { useNavigate } from 'react-router-dom';
+import Loader from '../../ui/Loader/Loader';
 
 const categories = [
 	{ uk: "GDPR", en: "GDPR" },
@@ -28,75 +29,72 @@ const BlogPage = () => {
 
 	const navigate = useNavigate()
 
-	const [currPage, setCurrPage] = useState(1)
-	const [totalPages, setTotalPages] = useState(null)
+	const [currPage, setCurrPage] = useState(1);
+	const [totalPages, setTotalPages] = useState(null);
 	const [articles, setArticles] = useState(null);
-	const [lastArticle, setLastArticle] = useState(null)
-	const [loading, setLoading] = useState(true)
-	const [category, setCategory] = useState(null)
+	const [lastArticle, setLastArticle] = useState(null);
+	const [loading, setLoading] = useState(true);
+	const [category, setCategory] = useState(null);
+	const [searchParam, setSearchParam] = useState("");
+	const [searchQuery, setSearchQuery] = useState(null);
 
 	useEffect(() => {
-		if (category) return
-
 		const fetchArticles = async () => {
-			setLoading(true)
+			setLoading(true);
 			try {
-				const data = await getArticles(currPage);
-				setLoading(false)
-				setArticles(data.posts);
-				if (currPage === 1) {
-					setLastArticle(data.posts[0])
+				let data;
+
+				if (searchQuery) {
+					data = await searchArticles(searchQuery, currPage);
+				} else if (category) {
+					data = await getArticlesByCategory(category, currPage);
+				} else {
+					data = await getArticles(currPage);
 				}
-				setTotalPages(data.total_pages)
+
+				setArticles(data.posts);
+				setTotalPages(data.total_pages);
+
+				if (currPage === 1 && data.posts.length > 0) {
+					setLastArticle(data.posts[0]);
+				}
+
+				setLoading(false);
 			} catch (err) {
 				navigate("/error", {
 					state: {
-						messageLoc: "Блог на даний момент пустий!",
-						linkTextLoc: "На головну",
-						linkToLoc: "/",
+						messageLoc: category
+							? "В даній категорії постів на даний момент немає!"
+							: searchQuery
+								? "Нічого не знайдено за вашим запитом!"
+								: "Блог на даний момент пустий!",
+						linkTextLoc: category || searchQuery ? "До усіх постів" : "На головну",
+						linkToLoc: category || searchQuery ? "/blog" : "/",
 					},
 				});
 			}
 		};
 
 		fetchArticles();
-	}, [currPage]);
+	}, [category, searchQuery, currPage]);
 
-	useEffect(() => {
-		if (!category) return
-
-		const fetchArticlesByCategory = async () => {
-			setLoading(true)
-			try {
-				const data = await getArticlesByCategory(category, currPage);
-				setLoading(false)
-				setArticles(data.posts);
-				if (currPage === 1) {
-					setLastArticle(data.posts[0])
-				}
-				setTotalPages(data.total_pages)
-			} catch (err) {
-				navigate("/error", {
-					state: {
-						messageLoc: "По такому запиту постів немає",
-						linkTextLoc: "До усіх постів",
-						linkToLoc: "/blog",
-					},
-				})
-			}
-		};
-
-		fetchArticlesByCategory();
-	}, [category, currPage])
-
-	const changeCategory = (category) => {
-		setCurrPage(1)
-		setCategory(category)
+	const changeCategory = (newCategory) => {
+		setCategory(newCategory);
+		setSearchQuery(null);
+		setCurrPage(1);
 	}
 
-	if (articles === null) {
-		return <div>Loading...</div>;
-	}
+	const handleSearchSubmit = (e) => {
+		e.preventDefault();
+		setSearchQuery(searchParam);
+		setCategory(null);
+		setCurrPage(1);
+
+		const element = document.getElementById('article-title');
+		if (element) {
+			element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+		}
+	};
 
 	return (
 		<main>
@@ -105,13 +103,26 @@ const BlogPage = () => {
 				third_title={texts.blog.third_title}
 				backgound={"/image/blog-top.webp"}
 			/>
-			<HeroBlog article={lastArticle} categories={categories} setCategory={changeCategory} />
 			{
-				loading ?
-					<div style={{ minHeight: "337.6px" }}>Loading...</div> :
-					<ArticlesList articles={articles} texts={texts} />
+				articles === null ? <Loader /> :
+					<div className='blog-content' style={{ marginBottom: "60px" }}>
+						<HeroBlog
+							article={lastArticle}
+							categories={categories}
+							category={category}
+							setCategory={changeCategory}
+							handleSearchSubmit={handleSearchSubmit}
+							searchParam={searchParam}
+							setSearchParam={setSearchParam}
+						/>
+						{
+							loading ?
+								<Loader /> :
+								<ArticlesList searchQuery={searchQuery} articles={articles} texts={texts} />
+						}
+						<Pagination totalPages={totalPages} currPage={currPage} setCurrPage={setCurrPage} />
+					</div>
 			}
-			<Pagination totalPages={totalPages} currPage={currPage} setCurrPage={setCurrPage} />
 		</main>
 	);
 };

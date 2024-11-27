@@ -4,7 +4,7 @@ import { useLanguage } from "../../../context/LanguageContext"
 import { icons } from "../../../utils/image"
 import Image from "../../../ui/Image/Image"
 
-const HeroBlog = ({ article, categories, setCategory }) => {
+const HeroBlog = ({ article, category, categories, setCategory, handleSearchSubmit, searchParam, setSearchParam }) => {
 	const { language, texts } = useLanguage()
 
 	const { title, category_text, search } = texts.blog
@@ -18,8 +18,14 @@ const HeroBlog = ({ article, categories, setCategory }) => {
 						<ArticleCard article={article} customClass={"new-article"} />
 					</div>
 					<div className="hero-blog__nav">
-						<form>
-							<input type="text" placeholder={search} />
+						<form onSubmit={handleSearchSubmit}>
+							<input
+								type="text"
+								placeholder={search}
+								required
+								value={searchParam}
+								onChange={(e) => setSearchParam(e.target.value.trim())}
+							/>
 							<button className="search-article"><Image src={icons.searchBtn} width={"44px"} height={"44px"} alt={"search-btn"} /></button>
 						</form>
 
@@ -29,7 +35,7 @@ const HeroBlog = ({ article, categories, setCategory }) => {
 								categories.map((el, i) => {
 									return (
 										<li key={i + "-category"}>
-											<button onClick={() => setCategory(el.uk)}>
+											<button onClick={() => setCategory(el.uk)} className={`${category === el.uk ? "active" : ""}`}>
 												{language === "uk" ? el.uk : el.en}
 											</button>
 										</li>

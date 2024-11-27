@@ -5,6 +5,9 @@ section.articles-list{
 		gap: 20px;
 		flex-wrap: wrap;
 	}
+	.article-message{
+		font-size: 20px;
+	}
 	.articles-list__title{
 		display: flex;
 		margin-bottom: 30px;
@@ -15,6 +18,7 @@ section.articles-list{
 			height: 30px;
 			position: relative;
 			overflow: hidden;
+			flex-shrink: 0;
 			figure{
 				position: absolute;
 				top: -5px;
@@ -34,6 +38,10 @@ section.articles-list{
 
 @media all and (max-width: 640px) {
 	section.articles-list{
-		
+		.articles-list__title{
+			h2{
+				font-size: 26px;
+			}
+		}
 	}
 }

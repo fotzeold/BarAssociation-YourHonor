@@ -2,7 +2,6 @@
 	display: flex;
 	justify-content: center;
 	gap: 5px;
-	margin: 40px 0 120px 0;
 	.pagination__button{
 		width: 36px;
 		height: 36px;
@@ -17,5 +16,13 @@
 	.pagination__button.active{
 		color: white;
 		background: #00B0F2;
+	}
+	.pagination__ellipsis{
+		color: #00B0F2;
+		line-height: 18px;
+		font-size: 18px;
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-end;
 	}
 }
