@@ -7,22 +7,7 @@ import ArticlesList from './ArticlesList/ArticlesList';
 import Pagination from './Pagination/Pagination';
 import { useNavigate } from 'react-router-dom';
 import Loader from '../../ui/Loader/Loader';
-
-const categories = [
-	{ uk: "GDPR", en: "GDPR" },
-	{ uk: "Захист персональних даних", en: "Personal Data Protection" },
-	{ uk: "CCPA/CPRA", en: "CCPA/CPRA" },
-	{ uk: "Інформаційна безпека", en: "Information Security" },
-	{ uk: "ISO 27001, ISO 27701", en: "ISO 27001, ISO 27701" },
-	{ uk: "Регулювання ШІ", en: "AI Regulation" },
-	{ uk: "Для компаній", en: "For Companies" },
-	{ uk: "Для ІТ-працівників", en: "For IT Professionals" },
-	{ uk: "ІТ-контракти", en: "IT Contracts" },
-	{ uk: "Внутрішні документи компанії", en: "Internal Company Documents" },
-	{ uk: "Права інтелектуальної власності", en: "Intellectual Property Rights" },
-	{ uk: "Нерухомість", en: "Real Estate" },
-	{ uk: "Консультації", en: "Consultations" }
-]
+import categories from '../../utils/categories';
 
 const BlogPage = () => {
 	const { texts } = useLanguage()

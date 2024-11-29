@@ -179,8 +179,8 @@
 	"empty": "---------------------------------------------------------",
 	"aboutPage": {
 		"title": "About Us",
-		"second_title": "Your Reliable Online Legal Services Partner.",
-		"third_title": "Created to find solutions to your problems, not obstacles to your plans.",
+		"second_title": "Your trusted #1 Online Legal Services.",
+		"third_title": "Created to find solutions and opportunities, not obstacles, for your ideas.",
 		"list": [
 			{
 				"id": 1,
@@ -210,18 +210,18 @@
 	},
 	"services": {
 		"title": "OUR SERVICES",
-		"second_title": "Your reliable partner for legal services online.",
-		"third_title": "Created to find solutions to your problems, not obstacles to achieving your plans.",
+		"second_title": "Your trusted #1 Online Legal Services.",
+		"third_title": "Created to find solutions and opportunities, not obstacles, for your ideas.",
 		"btn": "Read more",
 		"page": {
 			"personal-data-protection": {
-				"more": "Learn more about",
+				"more": "Read more about",
 				"morePrice": "Pricing",
 				"morePayment": "and Payment",
 				"title": "Personal Data Protection",
 				"image": "/image/service-1-top.webp",
-				"topText": "Want to offer your products or services in the EU, UK, or US market? Then you are in the right place. <br> We will help align your website, application, and business with international requirements without the risk of fines or reputation loss.",
-				"content": "<h1>Personal Data Protection. Ensuring compliance of your website, application, and company activities with GDPR (EU), UK, and US requirements</h1><p>&nbsp;</p><ul><li>Website compliance (Privacy Policy, Terms of Use, Cookie Policy)</li><li>Development of internal company documents, contracts, procedures</li><li>Personal data audit (categories, contractors, types of processing, subprocessors)</li><li>Consent of personal data subjects</li><li>Privacy risk assessment for new products and services (DPIA, LIA, PIA)</li><li>Cross-border data transfer risk assessment (TIA)</li><li>Marketing of products and services in compliance with international privacy requirements</li><li>Information security</li><li>Assistance with compliance with ISO 27001, ISO 27701 for data protection</li><li>Implementation of technical and organizational data protection measures</li><li>Legalization of personal data processing (proportionality and necessity of legitimate interest, contract performance, validity of consent from data subjects, other grounds)</li><li>Data breach response: actions to take and parties to notify, data protection</li><li>Response to requests from individuals and regulatory authorities</li><li>Outsourcing services of a certified Data Protection Officer (DPO)</li><li>Consultations</li><li>Online training for employees involved in personal data processing</li></ul>"
+				"topText": "Planning to offer your products or services in the EU, UK, or US markets? Then we are the right choice for you. We'll help ensure that your website, app, and business comply with international regulations, without the risk of fines or damage to your reputation.",
+				"content": "<h1>Personal Data Protection. Compliance of your business, website, and applications with data protection requirements in the EU, UK, and USA</h1><p>&nbsp;</p><ul><li>GDPR compliance of websites (Privacy Policy, Terms of Use, Cookie Policy)</li><li>Drafting of internal company documents, contracts, and procedures</li><li>Mapping of personal data (categories, vendors, processing activities, sub-processors)</li><li>Consents of personal data subjects</li><li>Privacy risk assessment of new products and services (Data Protection Impact Assessment, Legitimate Impact Assessment, Privacy Impact Assessment)</li><li>Cross-border data transfers (Transfer Impact Assessment)</li><li>Marketing of products and services without violating EU, UK, or US privacy requirements</li><li>Information security: implementation of technical and organizational measures</li><li>Bringing personal data processing in compliance with the law (proportionality and necessity of legitimate interest, performance of the contract, validity of data subjects’ consents)</li><li>Data breach mitigation: actions to take and parties to notify</li><li>Responses to requests from data subjects and Data Protection Authorities</li><li>Outsourced services of a certified Data Protection Officer (DPO)</li><li>Consultations</li><li>Online training for employees dealing with personal data</li></ul>"
 			},
 			"for-companies": {
 				"more": "Learn more about",
@@ -276,15 +276,14 @@
 				"image": "/image/services-1.webp",
 				"subtitle": "",
 				"ul": [
-					"Privacy Policy",
-					"Terms of Use",
-					"Cookie Policy",
+					"GDPR Compliance: business, Web-site and app in EU, UK and USA",
+					"Privacy Policy, Terms of Use, Cookie Policy",
 					"Data Processing Agreement",
-					"Compliance of Products and Services",
-					"Personal Data Audit",
-					"Information Security",
-					"Responses to Requests",
-					"DPO Representative Services (EU)",
+					"Personal data mapping",
+					"Privacy risk assessment of new products and services (DPIA, LIA, TIA, PIA)",
+					"Information security",
+					"Responses to requests",
+					"Data Protection Officer services",
 					"Consultations"
 				]
 			},
@@ -357,8 +356,9 @@
 			}
 		]
 	},
+	"empty2": "---------------------------------------------------------",
 	"paymentPage": {
-		"second_title": "Easy and fast online payments in one click are a significant advantage in working with clients.",
+		"second_title": "Easy and fast online payment in one click is  ours significant advantage when working with Clients.",
 		"title": "HOW TO ORDER OUR SERVICES?",
 		"list": [
 			{
@@ -388,56 +388,56 @@
 			}
 		],
 		"paynow_btn": "Pay Now",
-		"more_price": "Learn more about Pricing.",
+		"more_price": "Read more about Our Prices.",
 		"payment_service": "Payments via bank cards are processed by <a target='_blank' href='https://easypay.ua/ua'>EasyPay.</a>"
 	},
 	"pricingPage": {
-		"second_title": "Honesty and transparency in working with clients are the keys to our success.",
-		"third_title": "Easy and fast online payments in one click are a significant advantage in working with clients.",
-		"title": "Service costs are an important criterion when choosing a lawyer.",
-		"subtitle": "The client has the right to understand the costs they will incur and how the price for a specific service is formed before the cooperation begins and payment is made.",
+		"second_title": "Transparency in working with Clients is the key to our success.",
+		"third_title": "Easy and fast online payment in one click is our significant advantage.",
+		"title": "Service prices play a key role when choosing a lawyer.",
+		"subtitle": "The Client should understand and plan the expected costs and how the price is determined before starting cooperation and making payment.",
 		"garantTitle": "WE GUARANTEE",
 		"garantList": [
 			{
 				"image": "/image/price-1.webp",
-				"text": "The cost of all services is known before work on the case begins"
+				"text": "The price for services is known upfront, before any work begins on the case"
 			},
 			{
 				"image": "/image/price-2.webp",
-				"text": "No 'hidden' fees or additional payments"
+				"text": "No unexpected fees or extra charges"
 			},
 			{
 				"image": "/image/price-3.webp",
-				"text": "Easy and fast online payments in one click"
+				"text": "Easy and fast online payment in one click"
 			},
 			{
 				"image": "/image/price-4.webp",
-				"text": "A clear and consistent pricing structure for all clients"
+				"text": "Transparent and uniform pricing for all clients"
 			}
 		],
-		"totalTitle": "SERVICE COSTS",
-		"totalSubtitle": "Our services are available to everyone online; contracts and payments can be made online. This allows us to avoid unnecessary office maintenance costs, making our service prices accessible to everyone.",
-		"pricingTitle": "Service costs depend on:",
+		"totalTitle": "SERVICE FEES",
+		"totalSubtitle": "Conclusion of contract and payment may be done online. By offering our services online and eliminating unnecessary office maintenance costs, we are able to keep our fees AFFORDABLE",
+		"pricingTitle": "The costs of our services depend on:",
 		"pricingList": [
 			{
 				"image": "/image/price-top1.svg",
-				"text": "The volume and complexity of the case"
+				"text": "Complexity of the issue"
 			},
 			{
 				"image": "/image/price-top2.svg",
-				"text": "Time expenditures"
+				"text": "Time required"
 			},
 			{
 				"image": "/image/price-top3.svg",
-				"text": "The urgency of solving the problem"
+				"text": "Urgency of resolving the issue"
 			}
 		],
 		"pricingListBottom": [
-			"We strive to estimate the cost of services as accurately as possible in advance so that the client understands the expected expenses.",
-			"We have nothing to hide, so we are always ready to explain all components of service costs.",
-			"Our goal is satisfied clients who recommend us to others and share their positive experiences."
+			"We provide service fees as accurately as possible in advance, so the Client understands and plans all the expected costs.",
+			"Transparency is key for us, so we are always happy to explain every aspect of our pricing.",
+			"Our goal are satisfied Clients who recommend us to others and share their positive experiences."
 		],
-		"howTitle": "HOW TO FIND OUT THE COST OF SOLVING YOUR ISSUE?",
+		"howTitle": "HOW TO FIND OUT THE COST OF SOLVING YOUR EXACT ISSUE?",
 		"howList": [
 			{
 				"image": "/image/price-bottom1.svg",
@@ -452,7 +452,7 @@
 				"text": "Receive a list of services, their costs, and timelines"
 			}
 		],
-		"moreInfo": "Learn more about the payment process",
+		"moreInfo": "Read more about How to Order Our",
 		"moreInfoLink": "Services."
 	},
 	"blog": {
@@ -465,7 +465,11 @@
 		"category_text": "Select a category",
 		"articles_title": "Articles"
 	},
-	"empty2": "---------------------------------------------------------",
+	"articlePage": {
+		"dateText": "Publication date:",
+		"shareText": "Share",
+		"moreArticle": "Related articles"
+	},
 	"footer": {
 		"copyright": "© 2018-2024. All rights reserved",
 		"terms": "Terms of Use",
