@@ -8,6 +8,7 @@ import Pagination from './Pagination/Pagination';
 import { useNavigate } from 'react-router-dom';
 import Loader from '../../ui/Loader/Loader';
 import categories from '../../utils/categories';
+import CustomHelmet from '../../components/CustomHelmet/CustomHelmet';
 
 const BlogPage = () => {
 	const { texts } = useLanguage()
@@ -48,13 +49,11 @@ const BlogPage = () => {
 			} catch (err) {
 				navigate("/error", {
 					state: {
-						messageLoc: category
-							? "В даній категорії постів на даний момент немає!"
+						typeError: category
+							? "category"
 							: searchQuery
-								? "Нічого не знайдено за вашим запитом!"
-								: "Блог на даний момент пустий!",
-						linkTextLoc: category || searchQuery ? "До усіх постів" : "На головну",
-						linkToLoc: category || searchQuery ? "/blog" : "/",
+								? "search"
+								: "blog",
 					},
 				});
 			}
@@ -82,33 +81,36 @@ const BlogPage = () => {
 	};
 
 	return (
-		<main>
-			<TopPage
-				second_title={texts.blog.second_title}
-				third_title={texts.blog.third_title}
-				backgound={"/image/blog-top.webp"}
-			/>
-			{
-				articles === null ? <Loader /> :
-					<div className='blog-content' style={{ marginBottom: "60px" }}>
-						<HeroBlog
-							article={lastArticle}
-							categories={categories}
-							category={category}
-							setCategory={changeCategory}
-							handleSearchSubmit={handleSearchSubmit}
-							searchParam={searchParam}
-							setSearchParam={setSearchParam}
-						/>
-						{
-							loading ?
-								<Loader /> :
-								<ArticlesList searchQuery={searchQuery} articles={articles} texts={texts} />
-						}
-						<Pagination totalPages={totalPages} currPage={currPage} setCurrPage={setCurrPage} />
-					</div>
-			}
-		</main>
+		<>
+			<CustomHelmet meta={texts.meta.blog} />
+			<main>
+				<TopPage
+					second_title={texts.blog.second_title}
+					third_title={texts.blog.third_title}
+					backgound={"/image/blog-top.webp"}
+				/>
+				{
+					articles === null ? <Loader /> :
+						<div className='blog-content' style={{ marginBottom: "60px" }}>
+							<HeroBlog
+								article={lastArticle}
+								categories={categories}
+								category={category}
+								setCategory={changeCategory}
+								handleSearchSubmit={handleSearchSubmit}
+								searchParam={searchParam}
+								setSearchParam={setSearchParam}
+							/>
+							{
+								loading ?
+									<Loader /> :
+									<ArticlesList searchQuery={searchQuery} articles={articles} texts={texts} />
+							}
+							<Pagination totalPages={totalPages} currPage={currPage} setCurrPage={setCurrPage} />
+						</div>
+				}
+			</main>
+		</>
 	);
 };
 

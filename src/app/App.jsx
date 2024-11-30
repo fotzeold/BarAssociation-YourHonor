@@ -32,11 +32,7 @@ const App = () => {
 						<Route path="/blog" element={<BlogPage />} />
 						<Route path="/blog/:slug/:id" element={<ArticlePage />} />
 						<Route path="/error" element={<ErrorPage />} />
-						<Route path="*" element={<ErrorPage
-							message={"Схоже ви загубились. Такої сторінки немає!"}
-							linkText={"Повернутися на головну"}
-							linkTo={"/"}
-						/>} />
+						<Route path="*" element={<ErrorPage />} />
 					</Routes>
 					<Footer />
 				</BrowserRouter>

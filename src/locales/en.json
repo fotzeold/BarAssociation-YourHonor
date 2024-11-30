@@ -176,7 +176,6 @@
 			}
 		]
 	},
-	"empty": "---------------------------------------------------------",
 	"aboutPage": {
 		"title": "About Us",
 		"second_title": "Your trusted #1 Online Legal Services.",
@@ -185,29 +184,30 @@
 			{
 				"id": 1,
 				"image": "/image/about-1.webp",
-				"title": "Proud of our client base and successful market presence since 2018",
-				"text": "Our Law Association was founded in 2018 in Lviv – a Ukrainian IT hub where 9 of the top 100 global outsourcing companies are located. <br/> The implementation of the EU General Data Protection Regulation (GDPR) in May 2018, which established new 'rules of the game' in global markets, high fines, and an effective mechanism for accountability, influenced our specialization in the field of personal data."
+				"title": "We successfully operate since 2018 and are proud of our Clints ‘ base",
+				"text": "Our Advocates Association was -founded in 2018 in Lviv, a fast-growing IT hub and home to 9 of the top 100 global outsourcing companies<br/> The EU General Data Protection Regulation (GDPR) when entering into force May 2018  established new “rules of the game” in global markets, high fines and an effective enforcement  mechanism. Thise has affected our specialization in the field of personal data protection."
 			},
 			{
 				"id": 2,
 				"image": "/image/about-2.webp",
-				"title": "Transition to online service delivery",
-				"text": "In 2020, due to the pandemic, <b>our services, contract signing, and payment went online.</b> <br> This expanded our client audience beyond our physical location, reduced unnecessary office maintenance costs to <b>make our service prices accessible to everyone.</b>"
+				"title": "Transition to ONLINE services",
+				"text": "In 2020, due to the pandemic, our services, contract conclusion and payment went Online. This expanded our Clients’ base beyond our physical location, reduced unnecessary office costs, and made our prices for service affordable to anyone."
 			},
 			{
 				"id": 3,
 				"image": "/image/about-3.webp",
-				"title": "Internationally recognized qualification of our team",
-				"text": "Today, our team includes highly qualified lawyers with over 10 years of experience, a Master of Laws (LLM) degree from a prestigious European university, and internationally recognized certificates in personal data protection from the International Association of Privacy Professionals (IAPP): <br> - <b>CIPP/E</b> (Certified Information Privacy Professional/Europe), certified professional in <b>European</b> personal data protection legislation.<br> - <b>CIPP/US</b> (Certified Information Privacy Professional/United States), certified professional in <b>US</b> personal data protection legislation.<br> - <b>CIPM</b> (Certified Information Privacy Manager), certified data protection manager.<br> - <b>CIPT</b> (Certified Information Privacy Technologist), certified <b>technical engineer</b> for data protection."
+				"title": "Internationally qualified and recognized experts in our team",
+				"text": "Our team members are qualified advocates with <b>more than 10 years</b> of experience, have <b>Master degree in IT Law</b> from prestigious European university and obtained globally recognized certifications in privacy from the <b>International Association of Privacy Professionals (IAPP):</b> <ul><li><b>CIPP/E</b> (Certified Information Privacy Professional/Europe), </li> <li><b>CIPP/US</b> (Certified Information Privacy Professional/United States), </li> <li><b>CIPM (Certified Information Privacy Manager),</b></li> <li><b>CIPT (Certified Information Privacy Technologist). </b></li></ul> Today, our legal expertise and many years of experience allow us to deliver all spectrum of cutting-edge legal services tailored to the demands of our clients and digital world. "
 			},
 			{
 				"id": 4,
 				"image": "/image/about-4.webp",
 				"title": "Our Mission",
-				"text": "Founded to solve your problems, not create new ones. Our goal is to find 'how it can be done' and propose all possible ways to implement your boldest plans, rather than saying 'how it cannot be done'. We will bring your business, internet platform, app, and website into compliance with international requirements so that EU, UK, and US markets are open to your services and goods without the risk of fines or reputation loss."
+				"text": "Founded to solve your problems, not create new ones. Our goal is to find 'what’s allowed' and propose all possible ways to bring your plans to life, rather than saying 'what’s forbidden.<br>Our mission is to open these markets for your products and services, ensuring that your Internet platform, website or App not only complies with international requirements, but also thrives without the risk of penalties or reputational damage.<br>We will open global markets for your products and services, ensuring that your Internet platform, website or App not only complies with international requirements, but also thrives without the risk of penalties or reputational damage."
 			}
 		]
 	},
+	"empty": "---------------------------------------------------------",
 	"services": {
 		"title": "OUR SERVICES",
 		"second_title": "Your trusted #1 Online Legal Services.",

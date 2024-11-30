@@ -23,6 +23,10 @@ section.about-info{
 			}
 		}
 	}
+	ul{
+		margin: 10px 0;
+		margin-left: 20px;
+	}
 	.about-info__card:nth-of-type(2n){
 		flex-direction: row-reverse;
 	}
