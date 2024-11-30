@@ -207,7 +207,6 @@
 			}
 		]
 	},
-	"empty": "---------------------------------------------------------",
 	"services": {
 		"title": "OUR SERVICES",
 		"second_title": "Your trusted #1 Online Legal Services.",
@@ -221,25 +220,25 @@
 				"title": "Personal Data Protection",
 				"image": "/image/service-1-top.webp",
 				"topText": "Planning to offer your products or services in the EU, UK, or US markets? Then we are the right choice for you. We'll help ensure that your website, app, and business comply with international regulations, without the risk of fines or damage to your reputation.",
-				"content": "<h1>Personal Data Protection. Compliance of your business, website, and applications with data protection requirements in the EU, UK, and USA</h1><p>&nbsp;</p><ul><li>GDPR compliance of websites (Privacy Policy, Terms of Use, Cookie Policy)</li><li>Drafting of internal company documents, contracts, and procedures</li><li>Mapping of personal data (categories, vendors, processing activities, sub-processors)</li><li>Consents of personal data subjects</li><li>Privacy risk assessment of new products and services (Data Protection Impact Assessment, Legitimate Impact Assessment, Privacy Impact Assessment)</li><li>Cross-border data transfers (Transfer Impact Assessment)</li><li>Marketing of products and services without violating EU, UK, or US privacy requirements</li><li>Information security: implementation of technical and organizational measures</li><li>Bringing personal data processing in compliance with the law (proportionality and necessity of legitimate interest, performance of the contract, validity of data subjects’ consents)</li><li>Data breach mitigation: actions to take and parties to notify</li><li>Responses to requests from data subjects and Data Protection Authorities</li><li>Outsourced services of a certified Data Protection Officer (DPO)</li><li>Consultations</li><li>Online training for employees dealing with personal data</li></ul>"
+				"content": "<h1>Personal data protection. Compliance of your business, Web-site and apps with data protection requirements in EU, UK and USA</h1><ul><li>GDPR Compliance of website (Privacy Policy, Terms of Use, Cookie Policy)</li><li>Drafting of internal company documents, contracts, procedures</li><li>Mapping of personal data (categories, vendors, processing activities, sub-processors)</li><li>Consents of personal data subjects</li><li>Privacy risk assessment of new products and services (Data Protection Impact Assessment, Legitimate Impact Assessment, Privacy Impact Assessment)</li><li>Cross-border data transfers (Transfer Impact Assessment)</li><li>Marketing of products and services without violation of EU, UK or US privacy requirements</li><li>Information security. Technical and organizational measures</li><li>Bringing personal data processing in compliance with the law (proportionality and necessity of legitimate interest, performance of the contract, validity of data subjects&rsquo; consents)</li><li>Data Breach mitigation: how to act and whom to inform</li><li>Responses to requests of data subjects and Data Protection Authorities</li><li>Outsourced services of a certified Data Protection Officer (DPO)</li><li>Consultations</li><li>Online trainings for employees dealing with personal data</li></ul>"
 			},
 			"for-companies": {
-				"more": "Learn more about",
+				"more": "Read more about",
 				"morePrice": "Pricing",
 				"morePayment": "and Payment",
 				"title": "Services for Companies - Legal Support for Your Business",
 				"image": "/image/service-2-top.webp",
 				"topText": "Services for Companies. Legal Support for Your Business",
-				"content": "<h1>Legal Support for Your Business</h1><p><span style=\"color: #ff0000;\">IT Law</span></p><p><span style=\"color: #000000;\">English-speaking lawyer</span><span style=\"color: #000000;\"> <br />Consultations on any legal matters <br />Taxation in any foreign country, currency control, use of electronic money <br />Negotiations with contractors and agreement on contract terms, cooperation</span></p><h2>All types of contracts, including:</h2><ul><li>Service Agreement</li><li>Sales Agreement</li><li>Software Development Agreement</li><li>Service Agreement, Sales Agreement, Purchase Order</li><li>Non-Disclosure Agreement (NDA)</li><li>Non-Compete Agreement (NCA)</li><li>Non-Solicitation, Waiver of Rights</li><li>Separation Agreement (termination of contract) regarding intellectual property rights</li><li>Employment contracts, internal company policies</li><li>Intellectual Property Protection Agreement</li></ul><h2>Development of internal company documents:</h2><p>Protection of intellectual property rights (for works, programs, designs, and trade secrets) <br /><span style=\"color: #ff0000;\">Pre-trial and court disputes</span></p>"
+				"content": "<h1>Outsourced Legal services</h1><p>English-speaking lawyer</p><p>Consultations on any legal issues</p><p>Consultations on taxation in any foreign country, use of digital payment services (such as PayPal, Wise)</p><p>Negotiations with vendors, cooperation and conclusion of agreements</p><p><strong>Internal company documents</strong></p><p><strong>Contracts and internal company documents for your business, including :</strong></p><ul><li><strong>License agreement, software development agreement<br /></strong></li><li><strong>Service Agreement, Sales Agreement, Insertion Order</strong></li><li><strong>Non-Disclosure Agreement (NDA)</strong></li><li><strong>Non-Compete Agreement (NCA)</strong></li><li><strong>Non-Solicitation agreement, disclaimer</strong></li><li><strong>Separation agreement</strong></li><li><strong>Employment contracts, working rules and other internal company documents</strong></li><li><strong>Agreements on IP rights protection</strong></li></ul><p>IP rights protection (copyrights, programs, design and trade secrets)</p><p>Legal disputes<strong><br /></strong></p>"
 			},
 			"for-it-specialists": {
 				"more": "Learn more about",
 				"morePrice": "Pricing",
 				"morePayment": "and Payment",
-				"title": "Lawyer Services for IT Specialists",
+				"title": "Lawyer Services for IT Employees",
 				"image": "/image/service-3-top.webp",
-				"topText": "Lawyer Services for IT Specialists",
-				"content": "<p style='font-size: 24px'><em>Have you signed a Non-Disclosure Agreement (NDA) or confidentiality obligation? Rest assured, <strong>Your information and documents are securely protected by our attorney-client privilege</strong>, and you will not breach your commitments.</em></p><h1>Analysis of all types of agreements and consents:</h1><ul><li>Non-Disclosure Agreement</li><li>Non-Compete Agreement</li><li>Non-Solicitation Agreement</li><li>Software Development Agreement</li><li>Service Agreement</li><li>Intellectual Property Rights Agreement</li><li>Employment Contract</li><li>Termination of Cooperation Agreement</li><li>Waiver of Rights</li></ul><p><strong>Analysis of all risks, potential liabilities, and ways to avoid them, making amendments to the most problematic provisions.</strong></p><p><strong>Explanation of the laws of the relevant US state, EU, or UK </strong>regarding risks not outlined in the agreement that may arise during its execution.</p><p>Protection of intellectual property rights for works, programs, designs, and trade secrets.</p><p><strong>Consultations</strong> on any legal issues</p>"
+				"topText": "Lawyer Services for IT Employees",
+				"content": "<p><em>Have you signed a Non-Disclosure Agreement or confidentiality clause? Rest assured, <span style='text-decoration: underline;'><strong>the confidentiality of your information and documents will be safeguarded by our advocate-client professional secrecy</strong></span>, and your non-disclosure obligations will not be breached.</em></p><h1><em>FOR IT EMPLOYEES<br /></em></h1><h2><em>Analysis of all types of contracts and agreements :<br /></em></h2><ul><li><em>Non-Disclosure Agreement</em></li><li><em>Non-Compete Agreement</em></li><li><em>Non-Solicitation Agreement</em></li><li><em>Software Development Agreement</em></li><li><em>Service Agreement</em></li><li><em>IP rights Agreement</em></li><li><em>Employment Agreement</em></li><li><em>Separation Agreement</em></li><li><em>Disclaimer<br /></em></li></ul><p><em><strong>Analysis of all risks, possible liability and ways to avoid them</strong><br /></em></p><p><em><strong>Proposing changes </strong>to the most problematic provisions.<strong><br /></strong></em></p><p><em><strong>Explanation on possible risks</strong> under relevant EU, UK or US legislation, which may arise and are not prescribed in contracts<br /></em></p><p><em>IP rights protection at workpace (programs, copyrights, designs and trade secrets)<br /></em></p><p><em>Consultations on any legal issues</em></p>"
 			},
 			"real-estate-investments": {
 				"more": "Learn more about",
@@ -248,25 +247,25 @@
 				"title": "Lawyer Services - Real Estate. Investments",
 				"image": "/image/service-4-top.webp",
 				"topText": "Real Estate. Investments",
-				"content": "<p><strong>Protect your savings. Don’t fall victim to fraud or become the owner of a “property” that will never be commissioned.</strong></p><p><strong>Be informed about all risks and “hidden pitfalls” of future housing, whether concealed or “not disclosed” by the developer.</strong></p><p><strong>Without legal analysis of the property and consultation with a qualified lawyer, you might not only face unexpected expenses but also lose all your savings and miss out on your dream home.</strong></p><p>Do not believe that purchasing real estate on the secondary market or through a realtor means you are “protected” and won’t fall victim to fraud. Paying for realtor services DOES NOT PROTECT you from fraudulent schemes.<strong><br /></strong></p><p>Fraudulent schemes constantly evolve and are designed for such “protected” buyers who want to “save” on lawyer services, trust but don’t verify document authenticity, or overlook “minor” inaccuracies in documents due to a “bargain” price. They often fail to check for legal disputes or challenges to the seller’s ownership rights by third parties.</p><p>Many buyers give thousands of dollars in down payments for apartments and sign agreements without legally effective grounds for refunding such payments later.</p><p>Purchase property without hidden “surprises.” Don’t become one of several “owners” of a single property or fall for forged documents. Sleep peacefully instead of spending years in court with no chance of recovering your funds.</p><h1 style='text-align: center;'>LEGAL ANALYSIS OF REAL ESTATE SALE-PURCHASE DOCUMENTS IN NEW BUILDINGS AND ON THE SECONDARY MARKET</h1><p>Consultations on <strong>tax payments</strong> related to real estate transactions.</p><p><strong>Gift and rental agreements for real estate.</strong></p><p><strong>Preparation of purchase, rental, or gift agreement texts on terms most favorable to the Client.</strong></p><p><strong>Developer, seller, and transaction legality analysis:</strong></p><ul><li>Responsibilities and compliance with legislative provisions.</li><li><strong>Developer verification</strong> (licenses/permits, charter capital, founders, establishment date, leadership, tax debts, enforcement proceedings, bankruptcy, or dissolution).</li><li><strong>Verification of legal disputes and debts</strong> of the seller, developer, general contractor, or construction customer.</li><li><strong>Land plot documentation check:</strong> targeted purpose, lease agreement validity, legality, and existing legal disputes.</li><li>Parties involved and legality of existing agreements or contracts related to the real estate.</li><li><strong>Registry data checks</strong>: State Register of Property Rights, Property Ownership Registry, Mortgage Registry, Unified Registry of Prohibition of Property Alienation.</li><li><strong>Verification of legal disputes</strong> concerning the seller of the apartment under the contract.</li><li><strong>Review of construction and technical documentation</strong>: urban planning conditions, building permits, construction expert reports, local and state government approvals.</li><li><strong>Contractual authorization and proper property identification</strong> – correct location indication.</li><li><strong>Analysis of other developments</strong> that have or haven’t been successfully completed and commissioned.</li></ul><p><strong>Explanation of risks and “pitfalls,”</strong> guarantees for fund returns in case of obligations violations.</p><p><strong>Consultation on property inspections, advance payment, or deposit nuances,</strong></p><p><strong>Real estate agent agreement:</strong> terms analysis, consultation, and amendment suggestions.</p><p><strong>Deposit agreement:</strong> review, consultation, risk explanation, and amendment proposals.</p><h3 style='text-align: center;'><strong>INVESTMENTS&nbsp;</strong><br><strong>INVEST WISELY AND SAVE YOUR PEACE OF MIND!</strong></h3><h2><strong>Don’t fall victim to fraud and deceptive investments.</strong></h2><p><strong>Verification of proposed investment schemes:</strong> legality, taxation, legal disputes, validity of proposed income, payment terms, interest accrual, and refund procedures.</p><p><strong>Online investigation of potential partners:</strong> presence of required licenses/permits, charter capital, founders, establishment dates, business activities, tax debts, legal disputes, and bankruptcy/liquidation status.</p><p><strong>Verification of potential partners</strong> – individuals: powers, real estate ownership, legal or enforcement proceedings, and debtor registry inclusion.</p><p><strong>Contract analysis</strong> (investment, cooperation agreements) or other agreements for investment.</p><p>Explanation of risks, “pitfalls,” liabilities, guarantees for promised returns, and refund of investments in case of partner violations.</p><p><strong>Proposal of new, most beneficial contract terms for the Client.</strong></p>"
+				"content": "<h1>REAL ESTATE AND INVESTMENTS</h1><h2><em>REAL ESTATE</em></h2><p><strong>Save your money. Do not become the next victim of fraudsters and the owner of a 'housing' that will never be build.</strong></p><p><strong>Be informed about all the risks and 'pitfalls' of the future housing, hidden or 'not made public' by the builder.<br /></strong></p><p><strong>Without a legal analysis of the new housing and the consultation of a qualified lawyer, you may incur unexpected expenses and lose all your savings for your dream home.<br /></strong></p><p><strong>Stll mbelieving that if you buy real estate on the secondary market or through a realtor, you are 'protected' and will not become a victim of fraud? Paying for the services of a realtor does NOT protect you from fraudulent schemes.<br /></strong></p><p><strong>Scammers` schemes were created specifically for such buyers who want to 'save' on legal services, by trusting and not checking the documents\u2019 validity. Without our legal analysis you may turn a blind eye to 'small' writings because of the 'beneficial' price, not know about existing legal disputes or third party contesting the seller's ownership.</strong></p><p><strong>Many buyers invest several thousand dollars in a new housing and sign a deposit agreement without any guarantees to have the money back if the building will not start.</strong></p><p><strong>Buy a home without hidden 'surprises', do not become one of those 'owners' of a property with false documents. Sleep easy, and do not spend your lifetime in courts with no hope of getting your money back.</strong></p><p><strong>LEGAL ANALYSIS OF REAL ESTATE PURCHASE-SALE DOCUMENTS IN NEW HOUSING AND ON THE SECONDARY MARKET</strong></p><p>&nbsp;</p><p>Consultations on the <strong>payment of taxes</strong> in real estate transactions.</p><p><strong>Real estate gifting and rental.</strong></p><p><strong>Preparation of texts of agreements of sale, lease, donation of real estate on terms most favorable to the Client.</strong></p><p><strong>Analysis of the developer, seller, documentation of the legality of the agreement:<br /></strong></p><ul><li>Responsibilities, compliance with legal requirements.</li><li>Verification of the developer (licenses/permits, statutory fund, founders, establishment and management bodies, tax debts and enforcement proceedings, bankruptcy).</li><li>Check of legal disputes and debts of the seller, developer, general construction contractor.</li><li>Documentation for the land plot: compliance with the intended purpose, validity of the lease agreement, existence of legal disputes.</li><li>Authorization of the parties\u2019 representatives and proper identification of the real estate location.</li><li>Check of all Registers: State register of property rights to immovable property, State register of mortgages, Unified register of prohibitions against dispossession of immovable property.</li><li>Check of existing and possible legal disputes regarding the seller under the contract.</li><li>Check of construction and technical documentation, utilities: validity and compliance with urban planning conditions and restrictions, permission to perform construction works, expert construction report, additional approvals of local self-government bodies and state bodies for construction.</li><li>Check of other new housing projects that have been or have not been successfully completed.</li></ul><p>&nbsp;</p><h2><strong>INVESTMENTS</strong></h2><p><strong>INVEST WISELY AND SAVE YOUR NERVES!<br /></strong></p><p><strong>Do not become another victim and investor of fraudsters.<br /></strong></p><p><strong>Investment Scheme Documentation Verification</strong><strong><br /></strong></p><p>We conduct a thorough review of the proposed investment scheme to make sure that it is legal, tax compliant, with no legal disputes, with real returns, payment procedures, interest calculation, and fund return policies.</p><p><strong>Internet Research on Potential Business Partners</strong></p><p>For corporate partners, we check for necessary licenses, statutory capital, founders, legal entity, management, tax debt, enforcement proceedings, legal disputes, bankruptcy.</p><p><strong>Verification of Potential Individual Partners</strong></p><p>For individual partners, we check ID documents, powers of attorney, ownership of real estate, past or present legal proceedings, and registration in the debtor database.<strong><br /></strong></p><p><strong>Investment Agreement Analysis</strong></p><p>Analysis of investment agreements or other related contracts, with consultation on potential risks, protection of client\u2019s interests, responsibility assessment, compliance with current legislation, and suggestions of amendments on the most favorable terms for our Client.<strong><br /></strong></p><p><strong>Proposal of New Contractual Terms</strong></p><p>We offer new, client-focused terms to investment or collaboration contracts and negotiate amendments for optimal outcomes.</p>"
 			},
 			"court-representation-consulting": {
 				"more": "Learn more about",
 				"morePrice": "Pricing",
 				"morePayment": "and Payment",
-				"title": "Court Representation and Consulting",
+				"title": "Legal representation and consulting",
 				"image": "/image/service-5-top.webp",
-				"topText": "Court Representation and Consulting",
-				"content": "<h1>Court Representation and Consulting</h1><ul><li>Pre-trial and trial dispute resolution.</li><li>Lawyer services.</li><li>Consultations.</li><li>Strategy development to achieve desired results.</li><li>Analysis of judicial practice.</li><li>Document analysis, case evaluation, and cost forecasting.</li><li>Lawyer requests, evidence collection, obtaining necessary information, and document copies.</li><li>Representation of citizens and businesses in courts of all instances, state bodies, and organizations.</li><li>Preparation and submission of procedural documents (claims, appeals, cassations, motions).</li><li>Support for enforcement proceedings and debt recovery.</li><li>Appeal of unlawful actions or inactions of state bodies, local governments, or their officials.</li></ul>"
+				"topText": "Legal representation and consulting",
+				"content": "<h1>Legal representation and consulting</h1><p>Pre-trial and judicial settlement of disputes.</p><p>Services of an advocate.</p><p>Consultations.</p><p>Building a strategy to achieve the desired result.</p><p>Analysis of court practice.</p><p>Analysis of documents, assessment of the prospects of the case and projected costs.</p><p>Advocate&rsquo;s requests on information, collection of evidences, documents and necessary information.</p><p>Representation of the interests of citizens and businesses in courts of all instances, in state bodies and organizations.</p><p>Court litigation. Drafting and submittion of documents to court (claims, appeals and cassation appeals, petitions).</p><p>Enforcement proceedings, debt collection.</p><p>Challenging illegal actions and inactivity of state bodies, local self-government bodies and their officials.</p>"
 			},
 			"english-speaking-lawyer": {
 				"more": "Learn more about",
 				"morePrice": "Pricing",
 				"morePayment": "and Payment",
-				"title": "Lawyer Services - English-Speaking Lawyer",
+				"title": "English-Speaking Lawyer",
 				"image": "/image/service-6-top.webp",
 				"topText": "English-Speaking Lawyer",
-				"content": "<h1>English-Speaking Lawyer</h1><ul><li>Contract and document analysis and translation.</li><li>Counterparty verification.</li><li>Negotiations with counterparties.</li><li>Drafting of any agreements and documents in English.</li></ul><h2>Why You Need an English-Speaking Lawyer...</h2>"
+				"content": "<h1>ENGLISH-SPEAKING LAWYER</h1><ul><li>Analysis of contracts and documents, their translation</li><li>Vendor&rsquo;s due diligence</li><li>Negotiations with vendors</li><li>Drafting of any contracts and documents in English</li></ul><h2>Why do you need an English-speaking lawyer and not an ordinary translator ?</h2><p><strong>1. Legal terminology</strong></p><p>Accurate translation of legal documents requires not only knowledge of the language, but also an understanding of legal terminology and context. Lawyers understand the concepts embedded in one or another term, and the translator without that understanding can do a technically correct translation, leading to misunderstanding or 'expensive' legal mistakes, with significant consequences for cooperation and obligations. For example, 'indemnify' and 'compensate' in common usage may seem equivalent, but in the legal context they carry completely different obligations.<strong><br /></strong></p><p><strong>2. Understanding the peculiarities of different jurisdictions</strong></p><p>Legal systems and terminology vary greatly between countries, without understanding which it is impossible to accurately translate documents. For example, in the EU 'competition law' means the same as in the US 'antitrust law', the term 'probate' is used both in the US and in the UK, but is absent in the EU.</p><p><strong>3. Analytical and strategic thinking. Ability to adapt, identify and avoid legal risks, and negotiate, not just translate.<br /></strong></p><p>A translator may only directly translate the text or what was said, but is not able to analyze the content, to identify and avoid possible risks during the conversation, to find the 'pitfalls' or brainstorm questions that should be asked to the other party or answers that should be avoided. Our goal is a strategic approach to negotiations or disputes, helping us to achieve the Client's goals, not just a translation of words.</p><p><strong>4. Knowledge of formatting and standards of legal documents<br /></strong></p><p>Different legal systems have specific requirements for the formatting, wording and structure of official documents. Compliance with these standards is important when working with partners, when submitting to courts or government agencies.</p><p><strong>5. Compliance with confidentiality and ethical standards<br /></strong></p><p>Advocates are obliged to preserve confidentiality and ethical principles that protect the information entrusted by the Client.</p><p><strong>6. Speed, professionalism and certification<br /></strong></p><p>Advocates who have obtained degrees in law from reputable foreign universities, use English in communications as native speakers, and translation of complex legal documents is an easy task for us. An ordinary translator is involved in all areas and industries, so the translation of even a small legal text takes a considerable amount of time with no guarantee of accuracy.<strong><br /></strong></p>"
 			}
 		},
 		"list": [
@@ -291,27 +290,28 @@
 				"id": "for-companies",
 				"title": "FOR COMPANIES",
 				"image": "/image/services-2.webp",
-				"subtitle": "Legal support for your business",
+				"subtitle": "Outsourced legal services",
 				"ul": [
 					"IT Law",
 					"Contracts",
-					"Development of Internal Documents",
+					"Internal documents",
 					"Consultations on any legal issues",
 					"Taxation",
-					"Negotiations with Counterparties",
-					"Protection of Intellectual Property Rights"
+					"Negotiations with vendors",
+					"IP rights protection",
+					"Legal disputes"
 				]
 			},
 			{
 				"id": "for-it-specialists",
-				"title": "FOR IT SPECIALISTS",
+				"title": "FOR IT EMPLOYEES",
 				"image": "/image/services-3.webp",
 				"subtitle": "",
 				"ul": [
 					"Analysis of all types of contracts",
-					"Explanation of risks and liabilities",
-					"Amendments to problematic clauses",
-					"Protection of Intellectual Property Rights",
+					"Explanation on possible risks and responsibility",
+					"Proposing changes to contracts",
+					"IP rights protection at workpace",
 					"Consultations"
 				]
 			},
@@ -321,25 +321,25 @@
 				"image": "/image/services-4.webp",
 				"subtitle": "",
 				"ul": [
-					"Analysis and verification of documents for new buildings and secondary market properties",
-					"Verification of investment schemes to avoid fraud",
-					"Developer checks",
-					"Buying and Selling",
-					"Gift Agreements",
-					"Leasing"
+					"Document analysis and verification for new builds and secondary market",
+					"Background checks of building company",
+					"Purchase and sale transactions",
+					"Gifting of property",
+					"Rental agreements",
+					"Analysis of Investment scheme to avoid fraud"
 				]
 			},
 			{
 				"id": "court-representation-consulting",
-				"title": "COURT REPRESENTATION AND CONSULTING",
+				"title": "LEGAL REPRESENTATION AND CONSULTING",
 				"image": "/image/services-5.webp",
 				"subtitle": "",
 				"ul": [
 					"Pre-trial and court disputes",
 					"Consultations",
-					"Legal Inquiries",
+					"Advocate’s requests on information",
 					"Representation in courts and organizations",
-					"Enforcement Proceedings"
+					"Enforcement proceedings"
 				]
 			},
 			{
@@ -348,15 +348,14 @@
 				"image": "/image/services-6.webp",
 				"subtitle": "",
 				"ul": [
-					"Analysis and translation of contracts and documents",
-					"Counterparty checks",
-					"Negotiations with counterparties",
-					"Development of any contracts and documents in English"
+					"Analysis of contracts and documents, their translation",
+					"Vendor’s due diligence",
+					"Negotiations with vendors",
+					"Drafting of any contracts and documents in English"
 				]
 			}
 		]
 	},
-	"empty2": "---------------------------------------------------------",
 	"paymentPage": {
 		"second_title": "Easy and fast online payment in one click is  ours significant advantage when working with Clients.",
 		"title": "HOW TO ORDER OUR SERVICES?",
