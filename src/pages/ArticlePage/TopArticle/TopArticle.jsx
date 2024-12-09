@@ -18,8 +18,8 @@ const TopArticle = ({ img, date, texts, title, titleEn, language, category }) =>
 				<div className="top-article__wrapper">
 					<h1>{titleToPreview}</h1>
 					<figure></figure>
-					<p className="top-article__category">{categoryLabel}</p>
 					<div className="top-article__row">
+						<p className="top-article__category">{categoryLabel}</p>
 						{date && <div className="top-article__date">{dateText + " " + date}</div>}
 						<div className="top-article__share">
 							<span>{shareText}</span>

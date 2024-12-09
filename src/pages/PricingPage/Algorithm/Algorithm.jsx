@@ -4,7 +4,7 @@ import { Link } from "react-router-dom"
 import MultipleLink from "../../../components/MultipleLink/MultipleLink"
 
 const Algorithm = ({ texts }) => {
-	const { howTitle, howList, moreInfo, moreInfoLink } = texts.pricingPage
+	const { howTitle, howList, moreInfo, moreInfoLink, moreInfoLinkNext } = texts.pricingPage
 
 	return (
 		<section className="algorithm">
@@ -24,7 +24,8 @@ const Algorithm = ({ texts }) => {
 				</div>
 				<p className="algorithm__link">
 					{moreInfo} {" "}
-					<Link to={"/services"}>{moreInfoLink}</Link>
+					<Link to={"/payment"}>{moreInfoLink}</Link> {" "}
+					{moreInfoLinkNext}
 				</p>
 				<MultipleLink texts={texts} />
 			</div>

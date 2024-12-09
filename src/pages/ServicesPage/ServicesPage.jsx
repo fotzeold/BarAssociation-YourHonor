@@ -2,6 +2,7 @@ import { useLanguage } from "../../context/LanguageContext"
 import ServicesList from "./ServicesList/ServicesList"
 import TopPage from "../../components/TopPage/TopPage"
 import CustomHelmet from "../../components/CustomHelmet/CustomHelmet"
+import "./ServicesPage.scss"
 
 
 const ServicesPage = () => {
@@ -10,7 +11,7 @@ const ServicesPage = () => {
 	return (
 		<>
 			<CustomHelmet meta={texts.meta.services} />
-			<main>
+			<main className="service-page">
 				<TopPage
 					title={texts.services.title}
 					second_title={texts.services.second_title}

@@ -19,7 +19,7 @@ section.hero-blog{
 
 	.hero-blog__wrapper{
 		display: grid;
-		grid-template-columns: 2fr 1fr;
+		grid-template-columns: 1fr 1fr;
 		column-gap: 20px;
 	}
 
@@ -62,11 +62,16 @@ section.hero-blog{
 		}
 		ul{
 			padding-left: 20px;
-			display: flex;
-			flex-direction: column;
-			gap: 5px;
+			display: flex;	
+			flex-wrap: wrap;
+			justify-content: space-between;
+			gap: 6px;
 			list-style: url("../../../assets/icons/list-marker.svg");
+			li{
+				width: calc(50% - 3px);
+			}
 			button{
+				text-align: left;
 				font-size: 16px;
 				cursor: pointer;
 				color: white;
@@ -98,6 +103,18 @@ section.hero-blog{
 			display: grid;
 			grid-template-columns: 1fr 1fr;
 			column-gap: 20px;
+		}
+	}
+}
+
+@media all and (max-width: 768px) {
+	section.hero-blog{
+		.hero-blog__nav{
+			ul{
+				li{
+					width: 100%;
+				}
+			}
 		}
 	}
 }

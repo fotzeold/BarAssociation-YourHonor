@@ -1,7 +1,7 @@
 section.top-article{
 	h1{
 		color: white;
-		font-size: 48px;
+		font-size: 32px;
 		text-align: center;
 	}
 	figure{
@@ -12,16 +12,16 @@ section.top-article{
 		background: #00B0F2;
 	}
 	.top-article__category{
-		font-size: 24px;
+		font-size: 20px;
 		text-align: center;
 		color: white;
 	}
 	.top-article__wrapper{
-		height: 400px;
+		padding: 25px 0;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
-		gap: 40px;
+		gap: 20px;
 	}
 	.top-article__row{
 		display: flex;
@@ -32,14 +32,14 @@ section.top-article{
 		row-gap: 20px;
 	}
 	.top-article__date{
-		font-size: 24px;
+		font-size: 20px;
 		color: white;
 	}
 	.top-article__share{
 		display: flex;
 		align-items: center;
 		gap: 8px;
-		font-size: 24px;
+		font-size: 20px;
 		span{
 			color: white;
 			display: block;
@@ -51,19 +51,20 @@ section.top-article{
 @media all and (max-width: 728px) {
 	section.top-article{
 		h1{
-			font-size: 28px;
+			font-size: 24px;
 		}
 		.top-article__category{
-			font-size: 22px;
+			font-size: 1.1em;
 		}
 		.top-article__date{
-			font-size: 18px;
+			font-size: 1.1em;
 		}
 		.top-article__share{
-			font-size: 18px;
+			font-size: 1.1em;
 		}
 		.top-article__wrapper{
-			gap: 20px;
+			gap: 15px;
 		}
 	}
 }
+

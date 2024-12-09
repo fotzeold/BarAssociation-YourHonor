@@ -61,7 +61,7 @@ const Footer = () => {
 							<Link className="nav-link" to="">{footer.anonimus}</Link>
 							<Link className="nav-link" to="">{footer.offer}</Link>
 						</div>
-						<p>{footer.copyright}</p>
+						<p>© 2018-{new Date().getFullYear()}. {footer.copyright}</p>
 					</div>
 				</div>
 			</div>

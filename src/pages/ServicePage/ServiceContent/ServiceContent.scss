@@ -1,56 +1,59 @@
-section.service-content{
+section.service-content {
 	margin: 80px 0;
-	h1{
+	h1 {
 		font-size: 32px;
 		margin-bottom: 30px;
 		margin-top: 40px;
 	}
-	h2{
+	h2 {
 		font-size: 24px;
 		margin-bottom: 15px;
 		margin-top: 15px;
 	}
-	h3{
+	h3 {
 		font-size: 20px;
 		margin-top: 30px;
 		margin-bottom: 30px;
 	}
-	p{
+	p {
 		margin: 10px 0;
-		font-size: 20px;
+		font-size: 22px;
 	}
 	.multiple-link {
 		text-align: left;
 	}
-	ul{
+	ul {
 		padding-left: 20px;
-		font-size: 24px;
-		margin: 20px 0 60px 0;
+		font-size: 20px;
+		margin: 20px 0 30px 0;
 	}
-	.link{
+	.link {
 		margin-top: 60px;
 	}
 }
 
 @media all and (max-width: 1024px) {
-	section.service-content{
-		h1{
+	section.service-content {
+		h1 {
 			font-size: 26px;
 		}
-		.link{
+		.link {
 			text-align: center;
 		}
-		h2{
+		h2 {
 			font-size: 24px;
 			margin-bottom: 15px;
 		}
 		.multiple-link {
 			text-align: center;
 		}
-		ul{
+		ul {
 			padding-left: 25px;
+			font-size: 18px;
+			margin: 20px 0 30px 0;
+		}
+		p {
 			font-size: 20px;
-			margin: 20px 0 60px 0;
 		}
 	}
 }
