@@ -31,6 +31,7 @@ const ArticlePage = () => {
 		const fetchArticle = async () => {
 			try {
 				const data = await getArticleById(id)
+				console.log(data)
 				setArticle(data)
 			} catch (error) {
 				navigate("/error", {
@@ -78,6 +79,8 @@ const ArticlePage = () => {
 					title={article.acf.title}
 					titleEn={article.acf.titleEn}
 					category={article.acf.category}
+					author={article.acf.author}
+					authorEn={article.acf.author_en}
 				/>
 				<ArticleContent
 					content={article.acf.content}

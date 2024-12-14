@@ -3,12 +3,13 @@ import { icons } from "../../../utils/image"
 import Image from "../../../ui/Image/Image"
 import categories from "../../../utils/categories"
 
-const TopArticle = ({ img, date, texts, title, titleEn, language, category }) => {
+const TopArticle = ({ img, date, texts, title, titleEn, language, category, author, authorEn }) => {
 
 	const { dateText, shareText } = texts
 	const currentUrl = window.location.href
 	const titleToPreview = language === "uk" ? title : titleEn
 	const categoryLabel = categories.find(item => item.uk === category)?.[language] || category;
+	const authorToPreview = language === "uk" ? "Автор: " + author : "Author: " + authorEn
 
 	return (
 		<section className="top-article" style={{
@@ -19,8 +20,9 @@ const TopArticle = ({ img, date, texts, title, titleEn, language, category }) =>
 					<h1>{titleToPreview}</h1>
 					<figure></figure>
 					<div className="top-article__row">
-						<p className="top-article__category">{categoryLabel}</p>
 						{date && <div className="top-article__date">{dateText + " " + date}</div>}
+						{authorToPreview && <p className="top-article__category">{authorToPreview}</p>}
+						<p className="top-article__category">{categoryLabel}</p>
 						<div className="top-article__share">
 							<span>{shareText}</span>
 							<a href={`https://t.me/share/url?text=${encodeURIComponent(titleToPreview)}&url=${encodeURIComponent(currentUrl)}`} target="_blank">

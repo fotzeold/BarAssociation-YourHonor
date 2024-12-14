@@ -2,7 +2,7 @@ import "./ArticlesList.scss"
 import ArticleCard from "../../../components/ArticleCard/ArticleCard"
 
 const ArticlesList = ({ articles, texts, searchQuery }) => {
-	const { articles_title } = texts.blog
+	const { articles_title, search_result, search_error } = texts.blog
 
 	return (
 		<section className="articles-list">
@@ -13,7 +13,7 @@ const ArticlesList = ({ articles, texts, searchQuery }) => {
 					</div>
 					<h2 id="article-title">
 						{
-							searchQuery ? "Пости по запиту: " + searchQuery : articles_title
+							searchQuery ? search_result + " " + searchQuery : articles_title
 						}
 					</h2>
 				</div>
@@ -21,7 +21,7 @@ const ArticlesList = ({ articles, texts, searchQuery }) => {
 					{
 						articles && articles.length > 0 ?
 							articles.map((article, index) => <ArticleCard article={article} key={index + "-article-card"} />) :
-							<p className="article-message">По такому запиту постів на даний момент немає</p>
+							<p className="article-message">{search_error}</p>
 					}
 				</div>
 			</div>

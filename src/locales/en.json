@@ -229,7 +229,7 @@
 				"title": "SERVICES FOR COMPANIES",
 				"image": "/image/service-2-top.webp",
 				"topText": "SERVICES FOR COMPANIES",
-				"content": "<h1>Outsourced Legal services</h1><p>English-speaking lawyer</p><p>Consultations on any legal issues</p><p>Consultations on taxation in any foreign country, use of digital payment services (such as PayPal, Wise)</p><p>Negotiations with vendors, cooperation and conclusion of agreements</p><p><strong>Internal company documents</strong></p><p><strong>Contracts for your business, including:</strong></p><ul><li>License agreement, software development agreement<br /></li><li>Service Agreement, Sales Agreement, Insertion Order</li><li>Non-Disclosure Agreement (NDA)</li><li>Non-Compete Agreement (NCA)</li><li>Non-Solicitation agreement, disclaimer</li><li>Separation agreement</li><li>Employment contracts, working rules and other internal company documents</li><li>Agreements on IP rights protection</li></ul><p>IP rights protection (copyrights, programs, design and trade secrets)</p><p>Legal disputes. Litigation<strong><br /></strong></p>"
+				"content": "<h1>Outsourced Legal services</h1><p><strong>Contracts for your business, including:</strong></p><ul><li>License agreement, software development agreement<br /></li><li>Service Agreement, Sales Agreement, Insertion Order</li><li>Non-Disclosure Agreement (NDA)</li><li>Non-Compete Agreement (NCA)</li><li>Non-Solicitation agreement, disclaimer</li><li>Separation agreement</li><li>Employment contracts, working rules and other internal company documents</li><li>Agreements on IP rights protection</li></ul><p><strong>Internal company documents</strong></p><p>English-speaking lawyer</p><p>Consultations on any legal issues</p><p>Consultations on taxation in any foreign country, use of digital payment services (such as PayPal, Wise)</p><p>Negotiations with vendors, cooperation and conclusion of agreements</p><p>IP rights protection (copyrights, programs, design and trade secrets)</p><p>Legal disputes. Litigation<strong><br /></strong></p>"
 			},
 			"for-it-specialists": {
 				"more": "Learn more about",
@@ -463,10 +463,12 @@
 		"read_more": "Read more",
 		"search": "Search",
 		"category_text": "Select a category",
-		"articles_title": "Articles"
+		"articles_title": "Articles",
+		"search_result": "Posts for your query:",
+		"search_error": "No posts are currently available for this query"
 	},
 	"articlePage": {
-		"dateText": "Publication date:",
+		"dateText": "Date:",
 		"shareText": "Share",
 		"moreArticle": "Related articles"
 	},
