@@ -465,7 +465,7 @@
 		"category_text": "Select a category",
 		"articles_title": "Articles",
 		"search_result": "Posts for your query:",
-		"search_error": "No posts are currently available for this query"
+		"search_error": "No post found matching the query"
 	},
 	"articlePage": {
 		"dateText": "Date:",
