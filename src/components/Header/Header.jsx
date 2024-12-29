@@ -40,7 +40,7 @@ const Header = () => {
 						<a target="_blank" href="https://wa.me/380962580135">
 							<Image src={icons.whatsapp} width={"26px"} height={"26px"} alt={"whatsapp"} />
 						</a>
-						<a target="_blank" href="viber://chat?number=380962580135">
+						<a target="_blank" href="viber://chat?number=+380962580135">
 							<Image src={icons.viber} width={"26px"} height={"26px"} alt={"viber"} />
 						</a>
 					</div>
@@ -77,7 +77,7 @@ const Header = () => {
 						<a onClick={() => setMobileMenu(false)} target="_blank" href="https://wa.me/380962580135">
 							<Image src={icons.whatsapp} width={"32px"} height={"32px"} alt={"whatsapp"} />
 						</a>
-						<a onClick={() => setMobileMenu(false)} target="_blank" href="viber://chat?number=380962580135">
+						<a onClick={() => setMobileMenu(false)} target="_blank" href="viber://chat?number=+380962580135">
 							<Image src={icons.viber} width={"32px"} height={"32px"} alt={"viber"} />
 						</a>
 					</div>

@@ -44,7 +44,7 @@ const Footer = () => {
 								<a target="_blank" href="https://wa.me/380962580135">
 									<Image src={icons.whatsappF} width={"36px"} height={"36px"} alt={"whatsapp"} />
 								</a>
-								<a target="_blank" href="viber://chat?number=380962580135">
+								<a target="_blank" href="viber://chat?number=+380962580135">
 									<Image src={icons.viberF} width={"36px"} height={"36px"} alt={"viber"} />
 								</a>
 							</div>

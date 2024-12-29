@@ -1,5 +1,6 @@
 import "./Hero.scss"
 import Button from "../../../ui/Button/Button"
+import { Link } from "react-router-dom"
 
 const Hero = ({ texts }) => {
 	const { hero } = texts.home
@@ -10,7 +11,9 @@ const Hero = ({ texts }) => {
 					<h1>{hero.title}</h1>
 					<p>{hero.first_text}</p>
 					<p className="special">{hero.second_text}</p>
-					<Button text={hero.btn} />
+					<Link to={"/services"}>
+						<Button text={hero.btn} />
+					</Link>
 				</div>
 			</div>
 		</section>
