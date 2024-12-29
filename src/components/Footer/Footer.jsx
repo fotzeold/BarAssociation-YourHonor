@@ -57,9 +57,9 @@ const Footer = () => {
 					</div>
 					<div className="footer__bottom">
 						<div className="footer__bottom-link">
-							<Link className="nav-link" to="">{footer.terms}</Link>
-							<Link className="nav-link" to="">{footer.anonimus}</Link>
-							<Link className="nav-link" to="">{footer.offer}</Link>
+							<Link className="nav-link" to="/terms-of-use">{footer.terms}</Link>
+							<Link className="nav-link" to="/privacy-policy">{footer.anonimus}</Link>
+							<Link className="nav-link" to="/legal-aid-agreement">{footer.offer}</Link>
 						</div>
 						<p>© 2018-{new Date().getFullYear()}. {footer.copyright}</p>
 					</div>

@@ -1,23 +1,26 @@
 import React, { createContext, useState, useEffect, useContext } from 'react';
-import enData from "../locales/en.json"
-import ukData from "../locales/uk.json"
+import enData from "../locales/en.json";
+import ukData from "../locales/uk.json";
 
 const LanguageContext = createContext();
 
 export const LanguageProvider = ({ children }) => {
-	const [language, setLanguage] = useState('uk');
+	const [language, setLanguage] = useState(() => {
+		const storedLanguage = localStorage.getItem('language');
+		return storedLanguage || 'uk';
+	});
+
 	const translations = {
 		"uk": ukData,
 		"en": enData
 	};
 
-	const changeToUk = () => {
-		setLanguage("uk")
-	}
+	useEffect(() => {
+		localStorage.setItem('language', language);
+	}, [language]);
 
-	const changeToEn = () => {
-		setLanguage("en")
-	}
+	const changeToUk = () => setLanguage("uk");
+	const changeToEn = () => setLanguage("en");
 
 	return (
 		<LanguageContext.Provider value={{ language, changeToUk, changeToEn, texts: translations[language] }}>

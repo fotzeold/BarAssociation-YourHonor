@@ -12,6 +12,7 @@ import ScrollToTop from "../components/ScrollToTop/ScrollToTop"
 import BlogPage from "../pages/BlogPage/BlogPage"
 import ArticlePage from "../pages/ArticlePage/ArticlePage"
 import ErrorPage from "../pages/ErrorPage/ErrorPage"
+import LegalAgreement from "../pages/LegalAgreement/LegalAgreement"
 import { HelmetProvider } from "react-helmet-async"
 
 const App = () => {
@@ -31,6 +32,9 @@ const App = () => {
 						<Route path="/pricing" element={<PricingPage />} />
 						<Route path="/blog" element={<BlogPage />} />
 						<Route path="/blog/:slug/:id" element={<ArticlePage />} />
+						<Route path="/terms-of-use" element={<LegalAgreement fileNameUk={"tou_uk.html"} fileNameEn={"tou_en.html"} />} />
+						<Route path="/privacy-policy" element={<LegalAgreement fileNameUk={"pp_uk.html"} fileNameEn={"pp_en.html"} />} />
+						<Route path="/legal-aid-agreement" element={<LegalAgreement fileNameUk={"lsa_uk.html"} fileNameEn={"lsa_en.html"} />} />
 						<Route path="/error" element={<ErrorPage />} />
 						<Route path="*" element={<ErrorPage />} />
 					</Routes>

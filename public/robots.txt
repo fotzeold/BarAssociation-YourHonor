@@ -1,4 +1,7 @@
 # https://www.robotstxt.org/robotstxt.html
 User-agent: *
 Disallow: /error
+Disallow: /terms-of-use
+Disallow: /privacy-policy
+Disallow: /legal-aid-agreement
 Sitemap: https://advocate-online.com/sitemap.xml
