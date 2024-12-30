@@ -7,8 +7,12 @@
 		margin-bottom: 30px;
 	}
 
-	ul.nav{
-		margin-left: 18px;
+	ol.nav{
+		margin-left: 28px;
+		text-transform: uppercase;
+	}
+
+	h2{
 		text-transform: uppercase;
 	}
 	h2, h3{
@@ -29,6 +33,6 @@
 	p{
 		margin-bottom: 1rem;
 		font-size: 18px;
-
+		text-align: justify;
 	}
 }
