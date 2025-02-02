@@ -2,13 +2,14 @@ import "./Calculate.scss"
 import Image from "../../../ui/Image/Image"
 
 const Calculate = ({ texts }) => {
-	const { totalTitle, totalSubtitle, pricingTitle, pricingList, pricingListBottom } = texts.pricingPage
+	const { totalTitle, totalSubtitle, totalSubtitleSpec, pricingTitle, pricingList, pricingListBottom } = texts.pricingPage
 
 	return (
 		<section className="calculate">
 			<div className="container">
 				<h2>{totalTitle}</h2>
 				<p className="calculate-text">{totalSubtitle}</p>
+				<p className="calculate-text">{totalSubtitleSpec}</p>
 				<h3>{pricingTitle}</h3>
 				<div className="calculate__wrapper">
 					{

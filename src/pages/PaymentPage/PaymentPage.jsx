@@ -3,7 +3,6 @@ import { useLanguage } from "../../context/LanguageContext"
 import PaymentContent from "./PaymentContent/PaymentContent"
 import CustomHelmet from "../../components/CustomHelmet/CustomHelmet"
 
-
 const PaymentPage = () => {
 	const { texts } = useLanguage()
 

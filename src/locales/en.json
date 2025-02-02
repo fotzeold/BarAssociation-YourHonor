@@ -197,7 +197,7 @@
 				"id": 3,
 				"image": "/image/about-3.webp",
 				"title": "Internationally qualified and recognized experts in our team",
-				"text": "Our team members are qualified advocates with <b>more than 10 years</b> of experience, have <b>Master degree in IT Law</b> from prestigious European university and obtained globally recognized certifications in privacy from the <b>International Association of Privacy Professionals (IAPP):</b> <ul><li><b>CIPP/E</b> (Certified Information Privacy Professional/Europe), </li> <li><b>CIPP/US</b> (Certified Information Privacy Professional/United States), </li> <li><b>CIPM (Certified Information Privacy Manager),</b></li> <li><b>CIPT (Certified Information Privacy Technologist). </b></li></ul> Today, our legal expertise and many years of experience allow us to deliver all spectrum of cutting-edge legal services tailored to the demands of our clients and digital world. "
+				"text": "Our team members are qualified advocates with <b>more than 10 years</b> of experience, have <b>Master degree in IT Law</b> from prestigious European university and obtained globally recognized certifications in privacy from the <b>International Association of Privacy Professionals (IAPP):</b> <ul><li><b>CIPP/E</b> (Certified Information Privacy Professional/Europe), </li> <li><b>CIPP/US</b> (Certified Information Privacy Professional/United States), </li> <li><b>CIPM (Certified Information Privacy Manager),</b></li> <li><b>CIPT (Certified Information Privacy Technologist). </b></li><li><b>AIGP</b> (AI Governance Professional).</li></ul> Today, our legal expertise and many years of experience allow us to deliver all spectrum of cutting-edge legal services tailored to the demands of our clients and digital world. "
 			},
 			{
 				"id": 4,
@@ -386,6 +386,15 @@
 				"image": "/image/payment-5.svg"
 			}
 		],
+		"payment_form": {
+			"title": "Payment Form",
+			"label_1": "Payer's Full Name",
+			"label_2": "Contract Number",
+			"label_3": "Phone Number",
+			"label_4": "Amount",
+			"price_error_start": "Enter a valid amount",
+			"price_error": "The amount must be between 1.00 and 29999.99"
+		},
 		"paynow_btn": "Pay Now",
 		"more_price": "Read more about Our Prices.",
 		"payment_service": "Payments via bank cards are processed by <a target='_blank' href='https://easypay.ua/ua'>EasyPay.</a>"
@@ -416,6 +425,7 @@
 		],
 		"totalTitle": "SERVICE FEES",
 		"totalSubtitle": "Conclusion of contract and payment may be done online. By offering our services online and eliminating unnecessary office maintenance costs, we are able to keep our fees AFFORDABLE",
+		"totalSubtitleSpec": "The cost of 1 hour of advocate's services is 1000 UAH.",
 		"pricingTitle": "The costs of our services depend on:",
 		"pricingList": [
 			{
